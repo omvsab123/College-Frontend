@@ -1,0 +1,78 @@
+/* FULL SCREEN BACKGROUND IMAGE */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.bg-wrapper {
+  min-height: 100vh;
+  background-image: url('../../assets/img/front1.jpg'); /* <-- replace image */
+  background-repeat: no-repeat;
+  background-size: cover;
+margin-top: 124px; 
+ background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* CENTER BOX */
+.container {
+  width: 380px;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 25px rgba(0,0,0,0.3);
+  backdrop-filter: blur(5px);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  margin-bottom: 18px;
+  font-weight: 600;
+  color: #222;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #c991f1;
+  font-size: 15px;
+}
+
+button {
+  padding: 10px;
+  background: #6a0dad;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+button:hover {
+  background: #1b5cd1;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+.success {
+  color: green;
+  font-size: 14px;
+}
+label{color:#4a0072;}

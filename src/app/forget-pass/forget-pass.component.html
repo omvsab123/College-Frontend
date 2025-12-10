@@ -1,0 +1,40 @@
+<div class="bg-wrapper">
+
+  <div class="container">
+
+    <h2>Forgot Password</h2>
+
+    <!-- STEP 1 -->
+    <div *ngIf="step === 1" class="box">
+      <label>Enter your registered Email</label>
+      <input type="email" [(ngModel)]="email" placeholder="Enter email">
+      <p class="error" *ngIf="errorMsg">{{ errorMsg }}</p>
+      <p class="success" *ngIf="successMsg">{{ successMsg }}</p>
+      <button (click)="sendOtp()">Send OTP</button>
+    </div>
+
+    <!-- STEP 2 -->
+    <div *ngIf="step === 2" class="box">
+      <label>Enter OTP</label>
+      <input type="text" [(ngModel)]="otp" placeholder="Enter OTP">
+      <p class="error" *ngIf="errorMsg">{{ errorMsg }}</p>
+      <p class="success" *ngIf="successMsg">{{ successMsg }}</p>
+      <button (click)="verifyOtp()">Verify OTP</button>
+    </div>
+
+    <!-- STEP 3 -->
+    <div *ngIf="step === 3" class="box">
+      <label>New Password</label>
+      <input type="password" [(ngModel)]="newPassword" placeholder="New Password">
+
+      <label>Confirm Password</label>
+      <input type="password" [(ngModel)]="confirmPassword" placeholder="Confirm Password">
+
+      <p class="error" *ngIf="errorMsg">{{ errorMsg }}</p>
+      <p class="success" *ngIf="successMsg">{{ successMsg }}</p>
+      <button (click)="resetPassword()">Reset Password</button>
+    </div>
+
+  </div>
+
+</div>

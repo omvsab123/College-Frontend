@@ -1,0 +1,90 @@
+/* Heading */
+.h2 {
+  text-align: center;
+  font-family: 'Brush Script MT', cursive;
+  padding: 20px;
+  font-size: 4rem;
+  color: #000000;
+}
+
+/* Gallery grid */
+.gallery {
+  column-count: 3;
+  column-gap: 40px;
+  padding: 40px 60px;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 40px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.gallery-item img {
+  width: 100%;
+  display: block;
+  border-radius: 12px;
+  transition: transform 0.4s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.08);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.45);
+  color: #fff;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 12px;
+  transition: opacity 0.4s;
+}
+
+.gallery-item:hover .overlay {
+  opacity: 1;
+}
+
+/* POPUP fullscreen */
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: zoom-out;
+  z-index: 9999;
+}
+
+.popup-img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 10px;
+  box-shadow: 0 0 25px rgba(0,0,0,0.7);
+  animation: fadeInScale 0.3s ease-out;
+}
+
+@keyframes fadeInScale {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

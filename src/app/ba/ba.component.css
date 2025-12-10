@@ -1,0 +1,319 @@
+/* ==========================================================
+   FIXED PREMIUM PROFESSIONAL THEME FOR MARATHI DEPARTMENT PAGE
+   ========================================================== */
+
+:root {
+  --primary: #1a3da8;
+  --primary-light: #e3e9ff;
+  --text-dark: #111827;     /* FIX: Pure dark text */
+  --text-muted: #4b5563;
+  --card-bg: #ffffff;
+  --bg-soft: #f2f4f8;
+  --radius: 14px;
+  --shadow-soft: 0 6px 16px rgba(0,0,0,0.08);
+  --shadow-hover: 0 10px 24px rgba(0,0,0,0.12);
+}
+
+.dept-page {
+  background: var(--bg-soft);
+  color: var(--text-dark);
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 40px;
+}
+
+/* ====================================================
+   HERO SECTION
+   ==================================================== */
+
+.hero {
+  padding: 60px 30px;
+  background: linear-gradient(135deg, #d5ddff, #eef1ff);
+  border-radius: 0 0 40px 40px;
+  box-shadow: var(--shadow-soft);
+}
+
+.hero-inner {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+}
+
+.dept-title h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.tagline {
+  color: var(--text-muted);
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.dept-hero-img img {
+  width: 380px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: var(--shadow-soft);
+  transition: 0.3s ease;
+}
+
+.dept-hero-img img:hover {
+  transform: scale(1.02);
+  box-shadow: var(--shadow-hover);
+}
+
+/* ====================================================
+   CONTENT CONTAINER
+   ==================================================== */
+
+.container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* ====================================================
+   CARD COMPONENT
+   ==================================================== */
+
+.card {
+  /* background: var(--card-bg); */
+  background-color: rgb(215, 229, 235);
+  padding: 25px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-soft);
+  margin-bottom: 30px;
+  transition: 0.3s ease;
+}
+p{ font-family: "Arial", sans-serif; }
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-hover);
+}
+
+.card h2 {
+  font-size: 28px;
+  color: var(--primary);
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  font-size: 22px;
+  color: var(--text-dark);
+  margin-bottom: 10px;
+}
+
+/* ====================================================
+   TEXT + LISTS (FIXED VISIBILITY)
+   ==================================================== */
+
+p {
+  color: var(--text-dark);
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+ul {
+  margin-left: 20px;
+  color: var(--text-dark);
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/* ====================================================
+   SIDE-BY-SIDE CARDS
+   ==================================================== */
+
+.two-cards {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+
+.two-cards .card {
+  width: 50%;
+}
+
+/* ====================================================
+   TABLE STYLING (FIXED VISIBILITY)
+   ==================================================== */
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 8px;
+  font-size: 15px;
+}
+
+table th {
+  background: var(--primary-light);
+  padding: 14px;
+  text-align: left;
+  border-radius: 6px 6px 0 0;
+  color: var(--primary);
+  font-weight: 600;
+}
+
+table td {
+  background: #fff;
+  color: var(--text-dark);   /* FIX: dark text */
+  padding: 12px;
+  border-radius: 6px;
+  box-shadow: inset 0 0 2px rgba(0,0,0,0.06);
+}
+
+tr:hover td {
+  background: #f7f8ff;
+}
+
+/* ====================================================
+   FOOTER
+   ==================================================== */
+
+.small-note {
+  text-align: center;
+  background: var(--primary-light);
+  padding: 18px;
+  border-radius: var(--radius);
+  color: var(--text-muted);
+  font-size: 15px;
+}
+
+/* ====================================================
+   RESPONSIVE
+   ==================================================== */
+
+@media (max-width: 992px) {
+  .hero-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+  .dept-hero-img img {
+    width: 300px;
+    height: 240px;
+  }
+  .two-cards {
+    flex-direction: column;
+  }
+  .two-cards .card {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .dept-title h1 {
+    font-size: 28px;
+  }
+  .tagline {
+    font-size: 14px;
+  }
+  table th, table td {
+    font-size: 13px;
+    padding: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================================================
+   FORCE TEXT VISIBILITY (GLOBAL OVERRIDE FIX)
+   ======================================================== */
+
+.dept-page,
+.dept-page * {
+  color: #111 !important;       /* force dark text */
+}
+
+.card,
+.card * {
+  color: #111 !important;       /* force dark inside cards */
+}
+
+table th,
+table td {
+  color: #111 !important;
+  background: #fff !important;
+  border-color: #ccc !important;
+}
+
+.hero *,
+.tagline,
+h1, h2, h3, p, ul li {
+  color: #111 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================================================
+   PROFESSIONAL TABLE STYLING
+   ======================================================== */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Table Header */
+table thead th {
+  background: #eef2ff !important;  /* soft blue */
+  color: #0d1b47 !important;       /* dark blue text */
+  font-weight: 600;
+  padding: 12px;
+  border-bottom: 2px solid #d3dbff !important;
+}
+
+/* Table Body Cells */
+table tbody td {
+  background: #ffffff !important;
+  color: #111 !important;
+  padding: 10px 12px;
+  border-bottom: 1px solid #e6e9f5 !important;
+}
+
+/* Zebra Rows */
+table tbody tr:nth-child(even) td {
+  background: #f9faff !important;   /* very light blue */
+}
+
+/* Hover effect */
+table tbody tr:hover td {
+  background: #eef2ff !important;
+  transition: 0.3s;
+}
+
+/* Table Border */
+table th, table td {
+  border: 1px solid #d9dff2 !important;
+}

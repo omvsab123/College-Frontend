@@ -1,0 +1,334 @@
+
+  <!-- table started -->
+   
+<section class="course-section" style="margin-top: 150px;">
+  <h2>SCIENCE FACULTY: UG COURSES – B. Sc.</h2>
+
+
+<!-- microbiology-dept.component.html -->
+<section class="microbio-page">
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <h1>{{ title }}</h1>
+        <p style="color: rgb(45, 44, 44);" class="subtitle">{{ subtitle }}</p>
+
+        <div class="meta">
+          <div style="color: rgb(45, 44, 44);"><strong>Affiliation:</strong> {{ affiliation }}</div>
+          <div style="color: rgb(45, 44, 44);"><strong>Established:</strong> {{ established }}</div>
+          <div style="color: rgb(45, 44, 44);"><strong>Annual Intake:</strong> {{ intake }}</div>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img style="height: 300px;" src="../../assets/img/5.jpg" alt="Department of Microbiology" (error)="imgError($event)">
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- Overview -->
+    <article class="card">
+      <h2>Departmental Overview</h2>
+      <p *ngFor="let para of overview">{{ para }}</p>
+    </article>
+
+    <!-- Highlights -->
+    <section class="card">
+      <h2>Highlights</h2>
+      <ul>
+        <li *ngFor="let h of highlights">{{ h }}</li>
+      </ul>
+    </section>
+
+    <!-- Infrastructure -->
+    <section class="card">
+      <h2>Infrastructure</h2>
+      <p *ngFor="let line of infraIntro">{{ line }}</p>
+
+      <h3>Facilities & Labs</h3>
+      <ul>
+        <li *ngFor="let f of facilities">{{ f }}</li>
+      </ul>
+
+      <h3>Key Instruments</h3>
+      <div class="instruments-grid">
+        <div class="instrument" *ngFor="let inst of instruments">
+          <div class="inst-icon">🧪</div>
+          <div class="inst-name">{{ inst }}</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Objective -->
+    <section class="card">
+      <h2>Objective</h2>
+      <ul>
+        <li *ngFor="let ob of objectives">{{ ob }}</li>
+      </ul>
+    </section>
+
+    <!-- Vision & Mission -->
+    <div class="two-cards">
+      <div class="card">
+        <h2>Vision</h2>
+        <p>{{ vision }}</p>
+      </div>
+
+      <div class="card">
+        <h2>Mission</h2>
+        <ol>
+          <li *ngFor="let m of mission">{{ m }}</li>
+        </ol>
+      </div>
+    </div>
+
+    <!-- Footer note -->
+    <footer class="card small-note">
+      <p>For more details (syllabus, events, internships) contact the department office or visit the college website.</p>
+    </footer>
+
+  </main>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- FY B.Sc. (2024 Pattern) -->
+  <h3>F. Y. B. Sc. Course Structure (2024 Pattern) (NEP)</h3>
+
+  <div class="table-container">
+    <table class="styled-table">
+      <thead>
+        <tr>
+          <th colspan="3">Semester I (2024 Pattern) (NEP)</th>
+          <th colspan="3">Semester II (2024 Pattern) (NEP)</th>
+        </tr>
+        <tr>
+          <th>Code</th>
+          <th>Subject Name</th>
+          <th>Type</th>
+          <th>Code</th>
+          <th>Subject Name</th>
+          <th>Type</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>AEC-101</td><td>English : Professional Communication Skills</td><td>AEC</td>
+            <td>AEC-151</td><td>English : Professional Communication Skills–II</td><td>AEC</td></tr>
+
+        <tr><td>VEC-101 T</td><td>Environment Education-I</td><td>VEC</td>
+            <td>VEC-151 T</td><td>Environment Education-II</td><td>VEC</td></tr>
+
+        <tr><td>OE-101 GEO</td><td>Geography of Tourism</td><td>OE</td>
+            <td>OE-151 GEO P</td><td>Practical in Tourism Geography</td><td>OE</td></tr>
+
+        <tr><td>IKS</td><td>Indian Knowledge System (IKS) (Generic)</td><td>CC</td>
+            <td>CC-151-1</td><td>Health and Wellness</td><td>CC</td></tr>
+
+        <tr><td>CHE-101 T</td><td>Fundamentals of Chemistry–I</td><td>Major</td>
+            <td>CHE-151 T</td><td>Fundamentals of Chemistry–II</td><td>Major</td></tr>
+
+        <tr><td>CHE-102 P</td><td>Chemistry Practical–I</td><td>Major</td>
+            <td>CHE-152 P</td><td>Chemistry Practical–II</td><td>Major</td></tr>
+
+        <tr><td>SEC-101 CHE(A)-T</td><td>Chemistry Laboratory Skills–I</td><td>Major</td>
+            <td>SEC-151 CHE(B)-P</td><td>Basics in Computer for Chemistry</td><td>Major</td></tr>
+
+        <tr><td>MB-101-T</td><td>Introduction to Microbiology</td><td>Major</td>
+            <td>MB-151-T</td><td>Basic Microbiology</td><td>Major</td></tr>
+
+        <tr><td>MB-101-P</td><td>Laboratory Techniques in Microbiology–I</td><td>Major</td>
+            <td>MB-151-P</td><td>Laboratory Techniques in Microbiology–II</td><td>Major</td></tr>
+
+        <tr><td>BOT-101-T</td><td>Applied Aspects of Plant Sciences</td><td>Minor</td>
+            <td>BOT-151-T</td><td>Plant Morphology</td><td>Minor</td></tr>
+
+        <tr><td>BOT-102-P</td><td>Practical Based on Bot-101–T</td><td>Minor</td>
+            <td>BOT-152-P</td><td>Practical Based on Bot-151–T</td><td>Minor</td></tr>
+
+        <tr><td>ZOO-101-T</td><td>Genetics and Medical Zoology (T)</td><td>Minor</td>
+            <td>ZOO-151-T</td><td>Cell Biology and Biomedical Techniques –T</td><td>Minor</td></tr>
+
+        <tr><td>ZOO-102-P</td><td>Practicals in Genetics and Medical Zoology (P)</td><td>Minor</td>
+            <td>ZOO-152-P</td><td>Practicals in Cell Biology & Biomedical Techniques –P</td><td>Minor</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- SY B.Sc. -->
+  <h3>S. Y. B. Sc. Course Structure (2024 Pattern) (NEP)</h3>
+  <p class="note">(सूचना : विद्यार्थ्यांना लागू, केलेल्या NEP या पॅटर्नप्रमाणे २०२४ पासून एस.वाय.बी.कॉम प्रमाणे विषय बदलतील.)</p>
+
+  <!-- TY B.Sc. (2019 Pattern) -->
+  <h3>T. Y. B. Sc. Course Structure (2019 Pattern)</h3>
+
+  <div class="table-container">
+    <table class="styled-table">
+      <thead>
+        <tr>
+          <th colspan="2">Semester V (2019 Pattern)</th>
+          <th colspan="2">Semester VI (2019 Pattern)</th>
+        </tr>
+        <tr>
+          <th>Sub Code</th><th>Sub Name</th>
+          <th>Sub Code</th><th>Sub Name</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>MB 351</td><td>Medical Microbiology I</td><td>MB 361</td><td>Medical Microbiology II</td></tr>
+        <tr><td>MB 352</td><td>Immunology I</td><td>MB 362</td><td>Immunology II</td></tr>
+        <tr><td>MB 353</td><td>Enzymology</td><td>MB 363</td><td>Metabolism</td></tr>
+        <tr><td>MB 354</td><td>Genetics</td><td>MB 364</td><td>Molecular Biology I</td></tr>
+        <tr><td>MB 355</td><td>Fermentation Technology I</td><td>MB 365</td><td>Fermentation Technology II</td></tr>
+        <tr><td>MB 356</td><td>Agricultural Microbiology</td><td>MB 366</td><td>Food Microbiology</td></tr>
+        <tr><td>MB 357</td><td>Practical Course I</td><td>MB 367</td><td>Practical Course I</td></tr>
+        <tr><td>MB 358</td><td>Practical Course II</td><td>MB 368</td><td>Practical Course II</td></tr>
+        <tr><td>MB 359</td><td>Practical Course III</td><td>MB 369</td><td>Practical Course III</td></tr>
+        <tr><td>MB 3510</td><td>Marine Microbiology</td><td>MB 3610</td><td>Waste Management</td></tr>
+        <tr><td>CH 501</td><td>Physical Chemistry I</td><td>CH 601</td><td>Physical Chemistry II</td></tr>
+        <tr><td>CH 504</td><td>Inorganic Chemistry I</td><td>CH 604</td><td>Inorganic Chemistry II</td></tr>
+        <tr><td>CH 507</td><td>Organic Chemistry I</td><td>CH 607</td><td>Organic Chemistry II</td></tr>
+        <tr><td>CH 503</td><td>Physical Chemistry Practical</td><td>CH 603</td><td>Physical Chemistry Practical II</td></tr>
+        <tr><td>CH 506</td><td>Inorganic Chemistry Practical</td><td>CH 606</td><td>Inorganic Chemistry Practical II</td></tr>
+        <tr><td>CH 509</td><td>Organic Chemistry Practical</td><td>CH 609</td><td>Organic Chemistry Practical II</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+<!-- table ended -->
+
+<!--staff -->
+<div class="body">
+   <h1> Staff Details</h1>
+
+  <div class="staff-container">
+    <div class="staff-box">
+      <img style="height: 300px;"  src="../../assets/b.sc microbiology/anuja.jpg" alt="Dr. Ramesh Patil">
+      <h3>Anuja Sudhakar Zate</h3>
+      <p> Head of the Department</p>
+      <p>Qualification: B.Sc. Microbiology, M.Sc.
+Microbiology, SET</p>
+      <div class="contact-info">
+        <p>Email ID: anujazate122@gmail.com</p>
+        <p>Contact No: 9175275168</p>
+      </div>
+      <p>9 Years Experience</p>
+      <p>Expert Area: Genetics, Agriculture,
+Molecular Microbiology, Food
+Microbiology</p>
+    </div>
+
+    <div class="staff-box">
+      <img  style="height: 300px;"   src="../../assets/b.sc microbiology/pratiksha.jpg" alt="Ms. Sneha Kulkarni">
+      <h3>Pratiksha Dilip Kodre</h3>
+      <p>Assistant Professor</p>
+      <p>Qualification: B.Sc. Microbiology, M.Sc.
+Microbiology, DMLT, Post Graduate Diploma
+in Clinical Research</p>
+      <div class="contact-info">
+       <p>Email ID: kodrepratiksha@gmail.com</p>
+       <p>Contact No: 8600742592</p>
+      </div>
+      <p> 5 Years Experience</p>
+      <p>Expert Area: Medical Microbiology,
+Fermentation Technology, Air and Water
+ Micr</p>
+    </div>
+
+    <div class="staff-box">
+      <img  style="height: 300px;" src="../../assets/b.sc microbiology/swati.jpg" alt="Mr. Suresh Jadhav">
+      <h3> Swati Dnyaneshwar Masalkar</h3>
+      <p>Assistant Professor</p>
+      <p>Qualification: B.Sc. Microbiology, M.Sc.
+Microbiology, B.Ed</p>
+      <div class="contact-info">
+      <p>Email ID: swatidm96@gmail.com</p>
+      <p>Contact No: 7758897713</p>
+      </div>
+      <p> 6 Years Experience</p>
+      <p>Expert Area: Immunology, Enzymology,
+Bacterial Physiology</p>
+    </div>
+
+    <div class="staff-box">
+      <img  style="height: 300px;" src="../../assets/b.sc microbiology/Screenshot 2025-11-05 070857.png" alt="Mr. Suresh Jadhav">
+      <h3>Vrushali Prafull Mahadik</h3>
+      <p> Assistant Professor</p>
+      <p>Qualification: B.Sc. Microbiology, M.Sc.
+Microbiology</p>
+      <div class="contact-info">
+      <p>Email ID: vrushaliprafull5454@gmail.com</p>
+      <p>Contact No: 9854375454</p>
+      </div>
+      <p>0.4 Years Experience </p>
+      <p>Expert Area: Dairy Microbiology, Marine
+Microbiology, Nanobiotechnology</p>
+    </div>
+
+     <div class="staff-box">
+      <img  style="height: 300px;" src="../../assets/b.sc microbiology/Screenshot 2025-11-05 070935.png" alt="Mr. Suresh Jadhav">
+      <h3>Seema Rajendra Visnagarkar</h3>
+      <p> Lab Attender</p>
+      <p>Qualification: HSC</p>
+      <div class="contact-info">
+         <p>Email ID: seemavishnu12@gmail.com</p> 
+        <p>Contact No: 8329524068</p>
+        <p>6 Years Experience</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+<!-- departmental gallary -->
+
+
+<h2 class="h2">📸 Departmental <span style="color: rgb(72, 170, 235);">Gallery</span></h2>
+
+<section class="gallery">
+  <div 
+    class="gallery-item" 
+    *ngFor="let img of galleryImages" 
+(click)="openImage(img.path)"
+  >
+    <img [src]="img.path" [alt]="img.title" />
+    <div class="overlay">{{ img.title }}</div>
+  </div>
+</section>
+
+<!-- FULLSCREEN POPUP -->
+<div class="popup" *ngIf="selectedImage" (click)="closeImage()">
+  <img [src]="selectedImage" class="popup-img" />
+</div>
+
+<app-footer></app-footer>

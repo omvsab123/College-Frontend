@@ -1,0 +1,386 @@
+1b1ea2309292a36f87462d2392a221784e4829a8
+8727baa8de486f4e60b446df02a8e027f6dbea15
+bfd9e59ad928d5a0378255e7bb58b2fdaccb3e8a
+c23e85510f4ae09a351b36fa65fe08eb320773fa
+db65f435a2e2dd5a4199ac9b5555d01695e6ffa1
+fbc7cd13f26492e86700aa623e9763c1bd7b9c31
+2be36811fda386378e857f1a0e37312c1ef5c524 
+30011f8b18ff270855c2f5c9c94b4c5005cef10b 
+3b7c8ddd31cc3e4ceb4dea4d477033878dda3a8e 
+8b32bb620f316a23fd0978fac2d61c752f52ffa7 
+bc690e6c72dba22daaff63470178c9cae02f602b 
+59d9a3a3e73ffc640517ef488f6f89d6270195d1 .editorconfig
+0711527ef9d5c117396e6c03290a76658e6384ed .gitignore
+10d066f35a22aa8094b8d517242f3434a174f868 .vscode
+77b374577de83b86d846eadda2dd17532d7dabaa .vscode/extensions.json
+925af837050a4abe679c5fea0df7e41faf6fc011 .vscode/launch.json
+a298b5bd8796ac377fe9ed64caa249e24c7ec3b6 .vscode/tasks.json
+0eadd81facc381e82705faa82deb3f48501fc9e3 angular.json
+78d37a5cd4f0c26f09d944cc4dd572ead96b3433 angular.json
+e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 CONSOLE_HELPERS.js
+1bdc56e10b572f707b3d13d460a30436dfe9ceb8 package.json
+df0b192142040163109643c57c541be403dafcc6 package.json
+3b2f785d615e2c566d8f2ce3ff110e8d975c4bbc package-lock.json
+9752727604775ca17fc5f00d8fdc032d45be8209 package-lock.json
+1cc5b165cabba9d558af09cf887a74ca9ccc0c23 README.md
+1b280f5c4cf8bf7b570641225ff0248571f9dbff src
+3d7f30859d554521824c3d2ea18d64b6e3820a70 src
+504d5bd9cbfe7b70dbb3bb10a43c35850fa14c12 src
+864cbbc692f4f2352238d7129c543e74a2153913 src
+db2f3731161bcd256411019853c88469e613cb54 src
+7a1c03de1d5ef9a595b49c663ea169bf711aae3d src/app
+94dabfcd54098f104f62ea7a23aaeaa0a936700e src/app
+9e27f4601d176d473fbc01ad11ec0505e6a846ab src/app
+b9946e1cf5479deff3f411aac79cfe319c539227 src/app
+d8cd1c639e2522ccdff93222ba16c65eba05b0bf src/app
+55d8249ea94e1e1e39fab084719c47e27baf36ab src/app/about
+f3a5bf84d9b5b7d36a0d6afe1a352bd5c89b506f src/app/about
+157d3dccc04268fec8e24963b12c256859cdd7c7 src/app/about/about.component.css
+2e2df729ce3efc5b34cadcce58f8fa59dc4355c9 src/app/about/about.component.css
+ff4ab28e1e4f2380067a1547638c45aac0748519 src/app/about/about.component.html
+c02caa10eba202bc3966857223af31205c777a20 src/app/about/about.component.spec.ts
+fb8cfd09e776b26aea62086b778a1b3ab49be520 src/app/about/about.component.ts
+76222c74ed8aa3195d8760e30d39a9c31056640c src/app/aboutsarvodaya
+d59c5124d0f41324468db6aab6248c6f5262738d src/app/aboutsarvodaya
+520df25228de6ee566711628b52c44c2944fa863 src/app/aboutsarvodaya/aboutsarvodaya.component.css
+c0340737591003852c11e296541642aa1bf5fd65 src/app/aboutsarvodaya/aboutsarvodaya.component.html
+f4353a0b03bfb70b78a7b1f7d4bbb6e0568e813e src/app/aboutsarvodaya/aboutsarvodaya.component.html
+170bef25d07cb945e83b79ed52cd3927c02e3fbb src/app/aboutsarvodaya/aboutsarvodaya.component.spec.ts
+fd6d5c486c2d25c1af99ad244f93574c64525959 src/app/aboutsarvodaya/aboutsarvodaya.component.ts
+7d43700ca079250222ec18f68007df3024b4b809 src/app/activity1
+935cf70e074f37c315d2bbbc7e5800ea76efef87 src/app/activity1
+628c1f96eebe3e2aa9f3a0af31cf93357e129f38 src/app/activity1/activity1.component.css
+b527616b0c8b4a2bbc3e03bb4469d031601a0bd3 src/app/activity1/activity1.component.css
+eefb742b67ed3190be8b7fd44d45423e2c7bade0 src/app/activity1/activity1.component.html
+4c203499b509331bc2c832a65620caf61e2402fe src/app/activity1/activity1.component.spec.ts
+d886bcdf5c991d70d0422f0fa1d5ab57037ac7a1 src/app/activity1/activity1.component.ts
+e8bfdc26b47e57e7a2682318327e34c78b40cde0 src/app/app.component.html
+190b28f0896121855241ec9f0e0fa6ad8c78cf93 src/app/app.component.spec.ts
+3da83cee06de12b3cd86ba63e59786725e53f460 src/app/app.component.ts
+8230bca3b24d2b31919d1d850e2c6a1f653d51e8 src/app/app.module.ts
+89b6122069ebed47f42bee9d82be6fa8dd052d32 src/app/app.module.ts
+b498de7b2aa12546c833598618b3aa36d971f129 src/app/app.module.ts
+913df7302b727f19fa8b62007c414f65a9b4c080 src/app/app-routing.module.ts
+975d869a851af32b447e49b74683b07ac8617bcd src/app/app-routing.module.ts
+d192fc0608c55a371c089b1f45e176080d7a79db src/app/app-routing.module.ts
+4ae275e285d45aa1140d2032ebd528b7f24d30ce src/app/auth.guard.spec.ts
+b814e6822827c51a477350c7b915ca8b20a253eb src/app/auth.guard.ts
+1370282663e921a85739b56e2403cb78e341411e src/app/ba
+53f8a843926ed9ed68fb4c468f7c50c1c4a14751 src/app/ba
+cf362fb82e02fff0d383ed914bae24389e2a6c54 src/app/ba/ba.component.css
+ea8ad2b28981091713e923bdbf11166412a98e4a src/app/ba/ba.component.html
+70c1e1cb7ca3901e8c5249b799d7243ea683dec9 src/app/ba/ba.component.spec.ts
+47a9cec4e39a64f386686caf08415bb1c8e8a2dc src/app/ba/ba.component.ts
+588879d2e707a3c4f66c05f1eeb4c1c525f92905 src/app/ba/ba.component.ts
+c9d41e7c02ae60cb7c3ca4554f6e674eacee2e38 src/app/bba
+ad3114aa0ef435de6802f440a5f7b38b220a3c33 src/app/bba/bba.component.css
+173671ae477d53b09649fa24bf781d64ac4b19fc src/app/bba/bba.component.html
+35926ebc5ffe0d2e88e41d42f9ba31676af311e7 src/app/bba/bba.component.spec.ts
+eb3fcd92062f69ddf09ffccdb673bf54e71a40c2 src/app/bba/bba.component.ts
+73f5ab32d5ab585bdaff32c4dbd396eb2bef99a7 src/app/bcom
+f4c7716074b6335eeb6f855bd90f1218c9ea886b src/app/bcom/bcom.component.css
+207bcc602b1abe93bf87aba2305256510b8225e2 src/app/bcom/bcom.component.html
+9e447501109f5083cf57ef9aa9848929bc50f900 src/app/bcom/bcom.component.spec.ts
+1ed0c45ddea9c88d02f99cfa73ada7864491832d src/app/bcom/bcom.component.ts
+9d8f93f159bec7169ddb89c161cf68704ae1cef5 src/app/bsc
+fb83da3dd6614816b7921740630ecceb4d83d89b src/app/bsc
+5a001a3e9a61962219e3d68cf0b1f0294c00c607 src/app/bsc/bsc.component.css
+7bc9fdd6c1175611f484a8100250d25d5b8ab2bf src/app/bsc/bsc.component.css
+709d25941accab25baa5d2f91a491d88ac1957d4 src/app/bsc/bsc.component.html
+db4d1873eb91f2063d37e34ef3ebbec6ac2b4683 src/app/bsc/bsc.component.html
+f40d0f12a20669954979f488d5046aea53c11a64 src/app/bsc/bsc.component.spec.ts
+76c16ad73f1c18b0da058cc7bb9b8f2aaa8c707c src/app/bsc/bsc.component.ts
+e1ba4621eaf15e4ca9b6bacadbf7d2efe3af49d1 src/app/bsc/bsc.component.ts
+49cbf93e9ba8c12fa0948498c7f1a6ce1ee5c870 src/app/compscience
+d479af4776c77166b78ee235247274259fa2fe5b src/app/compscience/compscience.component.css
+292db317a5b7b3dd197ffd62668ff0f582fe92ea src/app/compscience/compscience.component.html
+30aab4f405910ad1e9c145af681118a041648329 src/app/compscience/compscience.component.spec.ts
+5192d19df1d40b23a935d23a9382dbe304fbf085 src/app/compscience/compscience.component.ts
+6478507e1a6a4a6b9c488a0b600be1584021bac6 src/app/contact-us
+257030c10d061bc4db382742d87e2609c0dd835b src/app/contact-us/contact-us.component.html
+36f4607be21630e46b78c83bac08ba96cdb1266c src/app/contact-us/contact-us.component.spec.ts
+69109acbb1d0e2b1562dd0a53f6b6cbaee65b68b src/app/contact-us/contact-us.component.ts
+4e4c0bed41e896e7f3c68e10c97e8a9b1a317b79 src/app/dashbord
+cac6ef3a47857f7a4c35280a398904b27fb627a7 src/app/dashbord
+ceb7852c110fbf9cd068b555a0e39823307d94eb src/app/dashbord
+309c7c3a0551ac94ba792e135b869f25ee7a20e1 src/app/dashbord/dashbord.component.css
+6bb09109b38bc4a5ce00d17775f4da7aa9c74b71 src/app/dashbord/dashbord.component.css
+96f57e956f67c9deafac8ca6ed80f74d1e1c0b03 src/app/dashbord/dashbord.component.css
+3289448905271f2f60556b3555eb333b22b4586b src/app/dashbord/dashbord.component.html
+541a28dc011841020f895162c01f3e2868d5f3f7 src/app/dashbord/dashbord.component.html
+6103347a116271b035a4b9ed862c7b4ad73cfa60 src/app/dashbord/dashbord.component.html
+2c98f07ae7a32350722912f32323fe649ec6cd53 src/app/dashbord/dashbord.component.spec.ts
+1eb664fdc8403ef524e2a5e2e53684302c9e9fe0 src/app/dashbord/dashbord.component.ts
+f8a90fdfbd14dc0fa699210a627053ae8e63aa01 src/app/dashbord/dashbord.component.ts
+fc7f39fb4d4c3952480fa921227695cbd207c397 src/app/dashbord/dashbord.component.ts
+000ac141e8d5ffd55d9f0dd6711b8c2f9e7b03dc src/app/footer
+84190fb2dccc78b86dfe6c37c7719dab77a7bc6d src/app/footer
+d822c9bc7f96816d49f0a1a318e38ce4b7499589 src/app/footer/footer.component.css
+24a1782c17f0ca3682d64c00cb342c73be686af4 src/app/footer/footer.component.html
+d44906d12b471a8e0fa77b8a6b604541266df545 src/app/footer/footer.component.html
+832b03a7b1946633e5ac5248749f309e281f287c src/app/footer/footer.component.spec.ts
+98c515ef2948ce3d9ebb7a82e03bb076b2ef8dc9 src/app/footer/footer.component.ts
+818333b2ece670542ad6a3020e6f2d5f7782be20 src/app/forget-pass
+1e0a8344344baa6df45df1ec65171d5c530afebd src/app/forget-pass/forget-pass.component.css
+c2734ff7146f9e88f4c4378c96c1802b61849ce9 src/app/forget-pass/forget-pass.component.html
+d6b79bd7ce0dca628dd7839499a80806c273ed46 src/app/forget-pass/forget-pass.component.spec.ts
+58d3d89396f022c6e297827f9546b9b4639054fb src/app/forget-pass/forget-pass.component.ts
+a4d5b8c8ec2f2164dfdb9b6b3367a7ca92c5b33d src/app/gallary
+a5e813693f427bd5440373bc833c265ef57c3bb4 src/app/gallary
+10fc39ba31a826a3aa213e824f156632781c97cb src/app/gallary/gallary.component.css
+a44286875fb5dc0d923815f002c592e384b8616d src/app/gallary/gallary.component.css
+a79be46acfcf7191348a57ad8a0d3b0cfc307a11 src/app/gallary/gallary.component.html
+dbdc16bf0ce5b74c9dd78a5423cdc09e1f905e87 src/app/gallary/gallary.component.html
+24af9c175958a8fb1fc8fb2fde2d2b0d53946775 src/app/gallary/gallary.component.spec.ts
+55eca11a36d61a4b6ed580b6418117af28784835 src/app/gallary/gallary.component.ts
+b731cf497e90fb5b7f497dc714c93cab8b99b7cf src/app/gallary/gallary.component.ts
+5c93571209b38fb0417939333ecc01c3e2c47314 src/app/getevents.service.spec.ts
+c7930b07d0624bb14c38df6d76e6be96d248734e src/app/getevents.service.ts
+1a16876c2763472553a4515f9ab19609aa98ce12 src/app/headernav
+d3f6451d64c952ec13a64f77315812cf53936467 src/app/headernav
+e320a5d08d3703f10b6692bbbd2968862d932c46 src/app/headernav
+2ffc3549c8f033583feb54140f29a1b7a9a7d787 src/app/headernav/headernav.component.css
+4bd328400f1f2fb617f3f503440a9c286879ff7a src/app/headernav/headernav.component.css
+a13ec222baf35e0806de9ccbc74f0dd7937de598 src/app/headernav/headernav.component.html
+c2184c4ae4282f672ab4d37998453d5fe9069b30 src/app/headernav/headernav.component.html
+f5d06f9a8baf1be7526322161c2e140df4232dbb src/app/headernav/headernav.component.html
+aaac1f6744b4305014beab863d49051a019d4b83 src/app/headernav/headernav.component.spec.ts
+a5a6e999eb834264c2244f2fee97de0b7b014af0 src/app/headernav/headernav.component.ts
+032694ef4f36cbb080e1fa777d206819c9ab3d52 src/app/home
+2d21262f9dc20564be3736771a448743eb4fac63 src/app/home
+4b2575a0ca7ad4cffeccf1ea82cf940c288be260 src/app/home
+4b28358fbf9af9fac3684b78f79e226103bb0ddb src/app/home
+8f8d9781086cf9aa72588a53459dafec70b05c86 src/app/home
+03d9005c089115296941e52bf0f09a3d4b5d91a3 src/app/home/home.component.css
+25bf7276a29d2159f8de776fd47f8f0493563a79 src/app/home/home.component.css
+8a21a8ccb26f49d27ed7a4efb83b8691ae60ca91 src/app/home/home.component.css
+d6146e004e7b1ce06324600b4bd855f3d173f622 src/app/home/home.component.css
+10488341e5c393ff3110304a8011baf54b39f349 src/app/home/home.component.html
+3f17b84df242f37d96f4a51b723cec9827e37741 src/app/home/home.component.html
+4c0a77c3ac0ba37fad94af8b9f4a6c1f8c8ef94d src/app/home/home.component.html
+5194c9d95d2a6a8c0a4a4327feb3f3500eff6718 src/app/home/home.component.html
+d1d6bdbd44a4f3b7d28a8815f36333ede049f546 src/app/home/home.component.html
+ba1b4a35ac1f61edb1c0e2b90be2caa47876cb45 src/app/home/home.component.spec.ts
+91e672c49b9ec2647de2a421ef75d30767cea56e src/app/home/home.component.ts
+d704aa4c1d8cdc72c857e92a448ed9e93ee45243 src/app/home/home.component.ts
+ee63f7bfa1a77c6e0dbc859f03366841a8145eb2 src/app/home/home.component.ts
+b143dee710ae347ae2ec347e207e4d9c5690dd83 src/app/hostel
+7add05ac6a9b74dc05c8ec2941d58eb713b7149f src/app/hostel/hostel.component.spec.ts
+177b8f0da273365a97479b0f6bfa66ad0b6baba0 src/app/hostel/hostel.component.ts
+20629e9d4c528ef5cdd47a009c0d8350dc4da712 src/app/login
+6118be042567bd30ffe2a78e566e68213854119a src/app/login
+8c45b19982d3244532c1a1268476049b09581012 src/app/login
+a6968d2c71f09bce71521fcb0cf6a58a3424d3cd src/app/login
+42c0d04016cbf98dc1375d9b4b59afcd8142725c src/app/login/login.component.css
+50c8ad20e53dfd75f53238dc55fbdca1bacde125 src/app/login/login.component.css
+d5ffb730e0fb1dd88928d90c56501f0f609ed8f7 src/app/login/login.component.css
+55b74bdde280e8ed252056756137e2efc9aad17d src/app/login/login.component.html
+67e302479baacd59f500de1818e821f703c8e767 src/app/login/login.component.html
+fc777c4400cd73c1eb123fe6b313774afa94216d src/app/login/login.component.html
+360f9f274c6e352aa731029b764d82992a3818e0 src/app/login/login.component.spec.ts
+56193ed70893be139ff4279b47d1d45fe30c28ff src/app/login/login.component.ts
+98ff055d9b2cfad73e5878570c019405bff686a3 src/app/login/login.component.ts
+fce7cd676a2f27d6bef37d8edeaa26a0879e94cf src/app/login/login.component.ts
+6431f89868d6d311e5aa2a317ab24504829bda41 src/app/login/login.service.ts
+6cb6270a78a7ba5c4e736da6e27aaa79d1480c61 src/app/login/login.service.ts
+94bda8ba7bc561e7af27b6c69b358371c442023c src/app/login/login.service.ts
+fa029e8c9151ca9ffb660885670f3ce5adced90d src/app/login/login.service.ts
+3da3ec0068b5e48a2135f87cf0ebc9b97428c30e src/app/ma
+9dcc13b0c7f8482569b01f879277c81005b4395d src/app/ma/ma.component.spec.ts
+60d33871aa4c9073476f22ea3ceda148306503fa src/app/ma/ma.component.ts
+441d2f51d0c40e0fafdd6fef31910f8b91abb884 src/app/mcom
+8b673fd201ecac410fb314df2600f39854de3b01 src/app/mcom/mcom.component.css
+96ca5a43437ac410863a6a9aa2139bccae11df02 src/app/mcom/mcom.component.html
+37ee6ac28e9c22ac378348d25f59d3a7744118db src/app/mcom/mcom.component.spec.ts
+62fdbccdbdcd6b0e8d7f6a4f049df1bc0dbb1f09 src/app/mcom/mcom.component.ts
+11a96f61ddb9e12f107e359352311906a714bee4 src/app/notice
+c0988b093186770f7f079153709710e73f59bd18 src/app/notice/notice.component.spec.ts
+6b377875514be58e4d884161f9f037353ff3e340 src/app/notice/notice.component.ts
+6a873e2a1e7a53aa4498ba975a7aa219f71d8a7d src/app/vip1
+8c447fef7a100ea155f4f69fa9eb3755fe5533e7 src/app/vip1/vip1.component.css
+0f55a2d9faf109b4ba05aa791fdc46d6cf9170b8 src/app/vip1/vip1.component.html
+7223aabca0239bb1abe237f42503fbef70575c93 src/app/vip1/vip1.component.spec.ts
+f266f6b9cebad43f37d6be2129f2c4d108b27bc7 src/app/vip1/vip1.component.ts
+b5a9ff6e19933f49152a482bff6fee3ee9130f41 src/app/vip2
+fe69ca0910602b33b2dc237b65f47d239caab372 src/app/vip2/vip2.component.html
+03d0ef744f067a6f5d844dc9798cdb2e4aef8257 src/app/vip2/vip2.component.spec.ts
+e6b2088961508d784a9752186a45a5c37b0b8431 src/app/vip2/vip2.component.ts
+29f7fb5ca42958efe3f4da5a52443f6aad021d14 src/app/vip3
+8ac216239202cdad526bf480df4b25e6e3b90d75 src/app/vip3/vip3.component.html
+f87a4bf7650ff68f7dc74410d2579a023095b5d2 src/app/vip3/vip3.component.spec.ts
+31e2cee9ec4b4ab008d3a1d444386b0fe3a334fd src/app/vip3/vip3.component.ts
+eb6ab846610776f29992fdd49254daadfd3975b8 src/app/vip4
+e687860e18341bcd36e15a2491fa448860ec53d6 src/app/vip4/vip4.component.html
+5829d745e068867b0996292619fff9ef8e7d780d src/app/vip4/vip4.component.spec.ts
+1cb77e3f26ae7a8df64f97973a559f2a39f88df7 src/app/vip4/vip4.component.ts
+f7ad0ffdcb0ad6222971e14ecd254ec0351b49a2 src/app/vip5
+a0656db14d851a37235488dd54447c4e589660b3 src/app/vip5/vip5.component.html
+699cb28ade47c922022f0a2a1745bdbf648ce79b src/app/vip5/vip5.component.spec.ts
+1ddb0767eedb4f6082e263d11e5b6d0f4ab82245 src/app/vip5/vip5.component.ts
+2cbc41a485a5592409c22d2eb49672fcc0b61819 src/assets
+c40c8e1e44f5b886ddf9836f5b18c0b0a512ef19 src/assets
+f0cfa848b5080493532975b316d3f4241f2a4824 src/assets
+18f91007c706e6be72d43baf9ac21955c6432d50 src/assets/aboutcoll.png
+5826b76f186f323edf1683ea2a659047ef67423e src/assets/activity1
+7e4b5bf65b29f9b0c32df37b155d3b374f0bb433 src/assets/activity1/img1.jpg
+1d41d2d82ecd1ad9c8de9e674d1d3017270cfb76 src/assets/activity1/img10.jpg
+a48bcb3724b12b21e4b3c3f5d3340347aa6a5eba src/assets/activity1/img2.jpg
+257eafe2e14a41979efbabc6897eba937145f0d4 src/assets/activity1/img3.jpg
+dff48e385dc715bc173c09bf32f1cadf917a6b97 src/assets/activity1/img4.jpg
+c634ade7cc199db4b50bf6da9f55fd3cf56ab907 src/assets/activity1/img5.jpg
+f975db8879f8c6c623f69a261ddc717249e2a32a src/assets/activity1/img6.jpg
+dfc82463f75966178c9561130e2a169b843365ce src/assets/activity1/img7.jpg
+c180fdb9c2d0ad466635452f473a73653e4fca9e src/assets/activity1/img8.jpg
+5f62cb2651e56f8254bd5cb74b4d818ce438fa35 src/assets/activity1/img9.jpg
+80352115650a459fc19f794619c4293f2b693e88 src/assets/activity1/shubhangi cultural department.jpg
+908721ef016bea1b3bd86a3538e23e9f993472df src/assets/b.com
+56850d1bb83ec3f413174fb01fcb276ca870256c src/assets/b.com/anupreta.png
+355f52f085bace0d3300132d5fe3a455336475f5 src/assets/b.com/dnyandeo.png
+8980b63b6a1859d46854e5bffb0ed65f0a64ff18 src/assets/b.com/kamrrunisa.png
+7a978f3f42b1494af1aa9d105cfb6f36abac0d60 src/assets/b.com/ravindra.png
+a6688ba08f48b083ed7392c241bec78a5201ca23 src/assets/b.com/sujata.png
+1747fe2ed629e507f0a94c7cb38b85f36ec4f30f src/assets/b.sc microbiology
+f0dfa6f28c48c222f50885392feaa5671961418b src/assets/b.sc microbiology
+d23e089ac498723abf5d2cea79c55a498fd8f32d src/assets/b.sc microbiology/anuja.jpg
+4959df0e4cb3cda80a3ab0fd603fcbc952294364 src/assets/b.sc microbiology/g1.jpg
+372d03cb11aa389cecea5c53ee5572fa7de82e01 src/assets/b.sc microbiology/g12.jpg
+6aad5a5c36cc2898b1ddfd39f51f23f1369dfd22 src/assets/b.sc microbiology/g13.jpg
+c15801e4f475a2863f9638af5a2a285ca0599acb src/assets/b.sc microbiology/g14.jpg
+2d4d788135244fa34b9e01157b3559ca9107644f src/assets/b.sc microbiology/g16.jpg
+e556aaef35d75db01eb98e6a3e16f63af258d194 src/assets/b.sc microbiology/g18.jpg
+8bac07a89224cd2f89bb63ac42a3fba46e830b11 src/assets/b.sc microbiology/g2.jpg
+bb0d7848515e22b2ad4fca242cab345abffc4732 src/assets/b.sc microbiology/g3.jpg
+5c6029f7bb4d4e89bdc1428fbf03e1cbc85c2ae2 src/assets/b.sc microbiology/g4.jpg
+5e67c5f60158d4b1941b814f0564bb1ca963564a src/assets/b.sc microbiology/g5.jpg
+4c4553ef45958858b7020a13f52a977759c949b4 src/assets/b.sc microbiology/g6.jpg
+17c05f59de5e67dbbbfecc118804419f7075809c src/assets/b.sc microbiology/g7.jpg
+2a85eb238975265d37d5ea9cc66fe562ec1f1ae8 src/assets/b.sc microbiology/g8.jpg
+c008dfa126b592c69775cfcde831e64b2d9da227 src/assets/b.sc microbiology/pratiksha.jpg
+b689fa0ea04063c2158e7aaef2816f0977e9ebfa src/assets/b.sc microbiology/Screenshot 2025-11-05 070718.png
+b65ff74fc98f6ff1895a996d839db746a06d7f69 src/assets/b.sc microbiology/Screenshot 2025-11-05 070754.png
+9590b5843d0242db73bd05c3461cb69ac375e4a2 src/assets/b.sc microbiology/Screenshot 2025-11-05 070826.png
+55629f198dcf84af24a3bdd7f3028115c0802a62 src/assets/b.sc microbiology/Screenshot 2025-11-05 070857.png
+1d91ad988288150065a60ed5cf5db8479878b47d src/assets/b.sc microbiology/Screenshot 2025-11-05 070935.png
+ea55fd9efba3f038cb0c5cfb0641945ecd2f0df7 src/assets/b.sc microbiology/swati.jpg
+cabb92c93f6d9e6497455bc564a9198e044a38f0 src/assets/ba
+dd29c0961a7190180cd6c0f8fed3861d7b87431f src/assets/ba/marathi1.png
+8a77c6df06f98aa490a5f4ff15b4a150b233c0cb src/assets/cantin.png
+bc9ef2f39ca41edcac87e3a7a8ee7baa4cd9886d src/assets/chemicallab.png
+2727dc00bbb0d8eeffb9e664fc20053de5f0cae4 src/assets/colhed.png
+d230476a32dac4e2104581e871719f361204d0ac src/assets/collpri.png
+e818911ea3c13104453d2f9f4ae7dd57c6a164e9 src/assets/comlab.png
+70303a1b68f5619511027bfdee22906fc3a4d1f7 src/assets/dow data
+a6e88c1969dc943edf27a373b55f0c0e220c69cb src/assets/dow data/Department of Marathi.docx
+306b8d4dec7b46ac65cb03bd368810912435dd59 src/assets/dow data/fwd
+def68cc016cd8dc90ed8583ff99858d2897d979e src/assets/dow data/fwd.zip
+f3339777c6a8f6be0d90eaa131f91066958fa5ec src/assets/dow data/fwd/JEP_3088.JPG
+9300202d8fa8bd1f87a3adca11f9dfdd6189e386 src/assets/dow data/fwd/JEP_3090.JPG
+4b6be9a663abd55ccb88287dfd797d8a4a71ff17 src/assets/dow data/fwd/JEP_3093.JPG
+5145d5e4150167bfe2ca196cc72f647313e0f9db src/assets/dow data/fwd/JEP_3096.JPG
+c13a852dbd7374b156c229c67643c8d9e578689e src/assets/dow data/fwd/JEP_3097.JPG
+fa93304b0e424179e87afcc71505fb7c8d2e0555 src/assets/dow data/fwd/JEP_3099.JPG
+79e99b23f712c89b15a047afb0b555a9f6e21639 src/assets/dow data/fwd/JEP_3100.JPG
+2a228dfe5c99ebd6e4391f0c2e6f2006bd697482 src/assets/dow data/fwd/JEP_3101.JPG
+0dd604b49b6ca17c9bf9978a24309b43f2fff1dd src/assets/dow data/fwd/JEP_3103.JPG
+c8e6912f78550762dc5d7b765f7565c2affd6412 src/assets/dow data/fwd/JEP_3105.JPG
+c9e61212a7fd4372783246cf18c5a183d6fd8c2b src/assets/dow data/fwd/JEP_3109.JPG
+e02424f39a9451ecee3b9a910970bf58d41161ba src/assets/dow data/fwd/JEP_3111.JPG
+1ec6d4915ab7fab91e796c7c288647bda57236f5 src/assets/dow data/fwd/JEP_3113.JPG
+93592090ffda0ed4c869fa89f6e5843796836c8f src/assets/dow data/fwd/JEP_3114.JPG
+dcad3d7ff65a6f5b14daee5d5119e25effa4d16f src/assets/dow data/fwd/JEP_3117.JPG
+9cf10e1e6d331aff5aa48974fac5f48c987bcb72 src/assets/dow data/fwd/JEP_3119.JPG
+b35f05cbdbf50ad355598a11ad5bade12cf05eee src/assets/dow data/fwd/JEP_3121.JPG
+1e1f0b60c7367d103e2e945e99f49fda480fa596 src/assets/dow data/fwd/JEP_3124.JPG
+f384e608dfa96afadf0d17370b35ca27a6a2513f src/assets/dow data/fwd/JEP_3126.JPG
+158daad9335a51991f2e4e9d6f5910f10e41745f src/assets/dow data/fwd/JEP_3127.JPG
+698cfcc6842dd1bff484aa91e9588624845d3da5 src/assets/dow data/fwd/JEP_3128.JPG
+2ed37543a45855217ab73a1fd03a05eb461e0427 src/assets/dow data/fwd/JEP_3129.JPG
+f3e2b1831e9689f5e8f1c0e1f3bc081b9e509f11 src/assets/dow data/fwd/JEP_3131.JPG
+23caf6ea448fca902befb391bacceafb97c79450 src/assets/dow data/fwd/JEP_3134.JPG
+65aa30d1e4f364f4bae76f1fd0d22a12d7e3f6b3 src/assets/dow data/fwd/JEP_3135.JPG
+1d325953330b0467cdbf857cd8e182db24e18040 src/assets/dow data/fwd/JEP_3136.JPG
+dadd231ad9d77f609b8792f8d6d9e3b313647abb src/assets/dow data/fwd/JEP_3137.JPG
+9e4a7768a11d2f942d83c0f709a5a7854d183715 src/assets/dow data/fwd/JEP_3139.JPG
+639f25922cef44f897f82689086fb2d721058653 src/assets/dow data/fwd/JEP_3142.JPG
+ae11c8163c76663502ac94ee208da2ed3183eec6 src/assets/dow data/fwd/JEP_3144.JPG
+2eeb7a12de012be024fd0e93622441a6ef386c36 src/assets/dow data/fwd/JEP_3146.JPG
+6a2e40b2122ab042931e1b6f317ee50545256afb src/assets/dow data/fwd/JEP_3147.JPG
+f19cc849a3c4d34f599cc91c2c64132d3047e5b6 src/assets/dow data/fwd/JEP_3149.JPG
+5cfb078c9ef1601ad346f14df9b14ee64c5dda60 src/assets/dow data/fwd/JEP_3150.JPG
+7b81666359bfaa371bcab7124377c659834a1694 src/assets/dow data/fwd/JEP_3151.JPG
+fdc7152aaa2abab017798ff092d37c43e831c904 src/assets/dow data/fwd/JEP_3154.JPG
+3cbbb3c91d68b6e074d7512d15765e73d42c989b src/assets/dow data/fwd/JEP_3156.JPG
+619245e90c9db297215bf01d82a3bfffc5335c78 src/assets/dow data/fwd/JEP_3158.JPG
+10ace8baff9d082da8f0677a7a6a2e03e0d59bd6 src/assets/dow data/fwd/JEP_3159.JPG
+c030dffe7e39d8b7ffdbd0ef09bf26b98a2bcc2a src/assets/dow data/fwd/JEP_3160.JPG
+aa301283c9420a5da61b88df241419620edba217 src/assets/dow data/fwd/JEP_3161.JPG
+6c6ccf7d55ff657b3c5a964d03e4aa99b198abb3 src/assets/dow data/fwd/JEP_3164.JPG
+f721a3361b662e810dcb79b5f778f3222b06495f src/assets/dow data/fwd/JEP_3165.JPG
+36db71a881b3a816b69fec3416e0d2873fd9baa3 src/assets/dow data/fwd/JEP_3166.JPG
+f69363f23ba7b9532b42d25df7673305c2b4e743 src/assets/dow data/fwd/JEP_3171.JPG
+7d0867a1a13f777ba2ecadfaaaa048761f742a46 src/assets/dow data/fwd/JEP_3173.JPG
+e9be8c62c1416abd6aa1a2ce0adec3e538a35518 src/assets/dow data/fwd/JEP_3175.JPG
+eeba2219f2a94ce388c44dbbf1e6897320913c55 src/assets/dow data/fwd/JEP_3180.JPG
+af1f0d672b627dd5c489690376958d33890e8f34 src/assets/dow data/fwd/JEP_3182.JPG
+4013d2c120b9987bcc9f9445005502e36a380661 src/assets/dow data/fwd/JEP_3186.JPG
+6d5ced35885744b3cce99e7c113925a26f9727c8 src/assets/dow data/fwd/JEP_3188.JPG
+7806d8d061322f4aed16b6e6d3fd40506f3140aa src/assets/dow data/fwd/JEP_3190.JPG
+3bff5e2c203e575d71cbc613c4e93118330fa050 src/assets/dow data/fwddepartmentalprofilebiodataphoto
+f6943737e5c8e7c8db06427b55afe07375108dac src/assets/dow data/fwddepartmentalprofilebiodataphoto.zip
+ae92b38680f514b3607d36ce879b2adb695da76a src/assets/dow data/fwddepartmentalprofilebiodataphoto/biodata anuja zate.doc
+3f3031687a6cdc3fd67d549836002c149d2eecc7 src/assets/dow data/fwddepartmentalprofilebiodataphoto/biodata pratiksha updatedd.docx
+0ec72863cb501c06014f9babccf67c6c156e58c0 src/assets/dow data/fwddepartmentalprofilebiodataphoto/departmental profile.docx
+12a110a98b75390fbcc6be87fd4e1fe40410a85f src/assets/dow data/fwddepartmentalprofilebiodataphoto/IMG_20191228_085208.jpg
+aef0ca7d0669b3832f7ac2c916fe2cfe4a72448c src/assets/dow data/fwddepartmentalprofilebiodataphoto/IMG_9980.jpeg
+767d7890a3d35a8c2408d3affe9964b2b5e7a675 src/assets/dow data/fwddepartmentalprofilebiodataphoto/IMG_9981.jpeg
+ae1a20fcbebd535ccd1ec3021813bc8089d502e2 src/assets/dow data/fwddepartmentalprofilebiodataphoto/swati masalkar biodata.docx
+e9ff2e78b005103c07e0e48d015ef5e03aaca0e7 src/assets/englishmedium.png
+f1186ebaa4c1d045b26a8aee0672cdb724d2597f src/assets/gallary
+d4516407acb20225ead83adeb887dd4006d81815 src/assets/gallary/g10.jpg
+12d1dfd02b1a1f3a241f6de1e9df723713fd062d src/assets/gallary/g11.jpg
+96c29f06dfb495a57800353da1914ad1c52496e0 src/assets/gallary/g15.jpg
+3ea63bc81bf54e190f0317a3f3321c7b6dbd4537 src/assets/gallary/g17.jpg
+4fbdb00c3fa2546935b4c2a2890c76c6a06d33d5 src/assets/gallary/g19.jpg
+5c877843d0f9aa729d5b181d6cad7bc05ba75058 src/assets/gallary/g20.jpg
+925362ef526c3b6e1ea0e97b2ac68195995e6aa8 src/assets/gallary/g21.jpg
+28b60308bb769d12d5f8d02cbcd78fbffc2d7971 src/assets/gallary/g9.jpg
+238050e57acce850656948463402e59670dcf959 src/assets/gym.png
+90435b541f722081c23b4fdbcd15f9917c699314 src/assets/img
+eb9a711dc7c2096e41a4e09e09964fb3ad69eb57 src/assets/img/1.jpg
+66907ff2b552c682e90c3d03be845534c9c5d9aa src/assets/img/2.jpg
+dde9611adcf1666514cb3f9ddb24fdcd26c7c159 src/assets/img/3.jpg
+e5bb204b4f7bb128be57ace9f00eb6b3c94cd44c src/assets/img/4.jpg
+942595e708b75d8efbdfca182c34113abcfb7abf src/assets/img/5.jpg
+33de6cb43bf83f75bc1ba969b2203fb4d91d2dcd src/assets/img/716a2f13-16b5-4d2f-873a-30c636375cf8.jpg
+a014fd8120c5329af96abe22ea3479b2573e4619 src/assets/img/ab7a425d-5df2-4c30-8b1e-93234c32937b.jpg
+ab8d32d0d8e8cc4bd299a55ca12f696fed6fc7dd src/assets/img/eee3bb8a-539b-4838-8469-51d2deafa9a5.jpg
+7d8650b0859d42bd6cb8a4b45f3c3cfab0ac1d39 src/assets/img/front1.jpg
+ab49c7ed43fa2a5b3df913c56dc10eba2ecb0b29 src/assets/img/front2.jpg
+2c84a7bf92ebee15a0e7ed71d94d7ef76c03a3f9 src/assets/img/front3.jpg
+af4a75c749916948bf6b8f7166b103329523de77 src/assets/lab.png
+b5f932d0c3e0c6882cf2c6fa12d116293c4238f2 src/assets/logo.png
+72d93c4d91fda1454d98df755e63d193fdbc4aba src/assets/mahatmagandhividyalay.png
+4b8131469579bc292be2e48ac5d49871efa9213d src/assets/mahatmagandhividyalay2.png
+9b74b6d849f57c0cd557cde81d05f79b00de3343 src/assets/manibhaidesaividyalay.png
+df3bc8dcbb037315bc133c21a7f5c1f57fe2eb4f src/assets/playground.png
+d5f1c70fe33621d72191fc3579c36b44ea33e916 src/assets/studylab.png
+5c57d91ddf2a65c4d73c051a06c56f1ae97d0b87 src/assets/vip
+e8209e9a4ee0564763bbd0c030a4f2872f2b6189 src/assets/vip
+f4eaf45b8ede265c9c4a95b48bc4c8f3bb35c1a5 src/assets/vip.png
+d1faa2d2a0042639f39d2aea67ea35e230d908ab src/assets/vip/1.jpg
+d0865c4c998365657871e160845e120a90e577f3 src/assets/vip/2.jpg
+0098d6f0d5cbe70cddc3910d8818c2d2a3e0413b src/assets/vip/3.jpg
+bf6074c3fd7443bc27c59d3e647dea5bcfce1694 src/assets/vip/kd.jpg
+7fdecac9767f467ee646c254b7ca08686ad4c93a src/assets/vip/kd2.jpg
+0b9aca930ffa7472028bfcffe8490c9f20aac85f src/assets/vip/kdk.jpg
+47f80738363df2e99b4c4dd9f361f031e9e5adb8 src/assets/vip/kdk2.jpg
+ba00a25ac444dcfdf7f7feb80c10b1405e31762f src/doc
+b60418892e0a2864ab2a1b9358a13a811b07bad4 src/doc/Prospact 25.pdf
+997406ad22c29aae95893fb3d666c30258a09537 src/favicon.ico
+805a1bd1d492c4df84214e2ea099fb0a182edb0d src/index.html
+c58dc05cbc6d094a9ed44203c6b69b74e5294452 src/main.ts
+6a156ca60c1743f28e6dee9b34f26f7f5e65fc5b src/styles.css
+b7ca8d86405c11580e6541ea8de2c06c1285fc80 src/styles.css
+374cc9d294aabd995598a0a2ad4eb99cf0ea3dfd tsconfig.app.json
+ed966d43afa55368b184ea967e1c1ef4df0b4caa tsconfig.json
+be7e9da76f7b2d7c73c119589e3b77008e66f5a8 tsconfig.spec.json
