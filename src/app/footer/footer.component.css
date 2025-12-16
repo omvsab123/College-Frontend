@@ -1,6 +1,7 @@
 /* --- Footer Styles --- */
 .college-footer {
-    background-color: #34495e; 
+    /* background-color: #34495e;  */
+    background-color: #1e7777;
     color: #ecf0f1; 
     padding: 40px 20px 0;
     font-family: 'Arial Unicode MS', 'Mangal', sans-serif; 
@@ -110,4 +111,21 @@
     font-size: 0.8em;
     color: #95a5a6;
 }
+.footer-bottom a{color:#1e7777 ;}
 /* ---------------- footer end-------------------- */
+
+/* --- Footer Video & Map --- */
+.footer-media video {
+    width: 100%;
+    height: 160px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    background: #000;
+}
+
+.footer-media iframe {
+    width: 100%;
+    height: 160px;
+    border: none;
+    border-radius: 10px;
+}

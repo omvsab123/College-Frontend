@@ -7,13 +7,16 @@ header {
   width: 100%;
   padding: 18px 60px;
   z-index: 1000;
-  border-bottom: 1px solid rgba(255,255,255,0.1);
+  /* border-bottom: 1px solid rgba(255,255,255,0.1); */
   background-color: rgb(245, 240, 240);
+  /* background-color: #24282c; */
 }
 
 span img {
   height: 90px;
-  margin-top: 14px;
+  /* width: 100px; */
+  margin-top: 15px;
+  /* border-radius:50%; */
 }
 
 .bar {
@@ -44,14 +47,15 @@ header h1 {
   position: relative;
   top: -50px;
   margin-left: 500px;
-  color: rgb(120, 116, 116);
+  color: rgb(187, 179, 179);
 }
 
 /* Navbar Links */
 nav a {
   position: relative;
   text-decoration: none;
-  color: #000;
+  /* color: #f3eded; */
+  color: black;
   font-weight: bold;
   font-size: 1.3rem;
   padding: 6px 10px;      /* ↓ Reduced from 40px */

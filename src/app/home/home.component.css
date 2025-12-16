@@ -63,20 +63,22 @@
 
 .events-details-container {
   display: flex;
-  gap: 40px;
+  gap: 30px;
   align-items: flex-start;
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 0 auto;
 }
 
 .events-box-column {
   flex: 0 0 30%; /* 30% width for events */
   min-width: 260px;
+  margin-left: -90px;
 }
 
 .college-details-column {
-  flex: 0 0 70%; /* 70% width for college overview */
+  flex: 0 0 80%; /* 70% width for college overview */
   min-width: 420px;
+  height: 565px;
 }
 
 .college-details-box {
@@ -188,7 +190,7 @@ a img {
   display: flex;
   flex-direction: column;
   will-change: transform;
-  animation: marquee-scroll 12s linear infinite;  /* FIX ADDED */
+  animation: marquee-scroll 6s linear infinite;  /* FIX ADDED */
 }
 
 .marquee-item {
@@ -258,7 +260,7 @@ a img {
 
 @keyframes marquee-scroll {
   0%   { transform: translateY(0); }
-  100% { transform: translateY(-100%); }
+  100% { transform: translateY(-50%); }
 }
 
 

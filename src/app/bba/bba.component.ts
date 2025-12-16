@@ -7,4 +7,37 @@ import { Component } from '@angular/core';
 })
 export class BbaComponent {
 
+  showModal = false;
+
+  profile = {
+    img: '',
+    name: '',
+    designation: '',
+    qualification: '',
+    experience: '',
+    expertise: '',
+    mobile:'',
+    email:''
+  };
+
+  openProfile(img: string, name: string, designation: string,
+              qualification: string, experience: string, expertise: string, mobile: string, email: string) {
+
+    this.profile = {
+      img,
+      name,
+      designation,
+      qualification,
+      experience,
+      expertise,
+      mobile,
+      email
+    };
+
+    this.showModal = true;
+  }
+
+  closeProfile() {
+    this.showModal = false;
+  }
 }
