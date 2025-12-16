@@ -512,4 +512,45 @@ table th, table td {
   cursor: pointer;
 }
 
+.dept-layout {
+  display: flex;
+  gap: 30px;
+}
+
+.sidebar {
+  width: 250px;
+  flex-shrink: 0;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  padding: 12px 15px;
+  background: #ffffff;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.sidebar li:hover {
+  background: #e3e9ff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.sidebar li.active {
+  background: #1a3da8;
+  color: white;
+}
+
+.content {
+  flex: 1;
+}
+
 

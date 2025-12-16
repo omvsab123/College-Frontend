@@ -7,5 +7,11 @@ import { Component } from '@angular/core';
 })
 export class BaComponent {
 
+  activeSection: string = 'overview';
+
   constructor() { }
+
+  setActiveSection(section: string) {
+    this.activeSection = section;
+  }
 }

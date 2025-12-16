@@ -7,6 +7,8 @@ import { Component } from '@angular/core';
 })
 export class BscComponent {
 
+  activeSection: string = 'overview';
+
   title = 'Department of Microbiology';
   subtitle = `Mahatma Gandhi Sarvodaya Sangh’s Padmashri Manibhai Desai Mahavidyalaya, Uruli Kanchan`;
   affiliation = 'Affiliated to Savitribai Phule Pune University';
@@ -92,6 +94,10 @@ export class BscComponent {
     { path: 'assets/lab.png', title: 'Microbiology Lab' },
     { path: 'assets/studylab.png', title: 'Study Lab' }
   ];
+
+  setActiveSection(section: string) {
+    this.activeSection = section;
+  }
 
   openImage(img: string) {
     this.selectedImage = img;

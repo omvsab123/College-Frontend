@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class BcomComponent {
 
+  activeSection: string = 'overview';
+
+  setActiveSection(section: string) {
+    this.activeSection = section;
+  }
 }

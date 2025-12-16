@@ -8,6 +8,8 @@ import { HostListener } from '@angular/core';
 })
 export class CompscienceComponent {
 
+  activeSection: string = 'overview';
+
   showModal = false;
 
   profile = {
@@ -20,6 +22,10 @@ export class CompscienceComponent {
     mobile:'',
     email:''
   };
+
+  setActiveSection(section: string) {
+    this.activeSection = section;
+  }
 
   openProfile(img: string, name: string, designation: string,
               qualification: string, experience: string, expertise: string, mobile: string, email: string) {

@@ -16,49 +16,69 @@
 
   <main class="container">
 
-    <!-- Overview -->
-    <article class="card">
-      <h2>Overview</h2>
-      <p>
-        Department of Marathi has been established with the vision of conservation of Indian culture,
-        literature, and regional language, as well as promotion of the mother language in all sectors of human life.
-        It offers graduate programme B.A. Marathi since 2002, and M.A. Marathi since 2021.
-        The department aims to promote Marathi language & culture and study its history.
-        There are 2 faculty members. The future complex will have a library, seminar rooms, and research cubicles.
-        The department has a valuable collection of manuscripts and is actively collecting more.
-      </p>
-    </article>
-
-    <!-- Objectives -->
-    <section class="card">
-      <h2>Objectives</h2>
-      <ul>
-        <li>teach students how to use computers effectively, creatively, and intelligently.</li>
-        <li>teach computer science as a multifaceted, humanistic discipline of problem solving.</li>
-        <li>provide up-to-date curricula in the technical and scientific knowledge needed for the professional and academic goals of our students.</li>
-        <li>teach students how to acquire new knowledge, independently, in a world that changes rapidly.</li>
-        <li>provide students with experiential learning opportunities.</li>
-        <li>educate an increasing number of undergraduates in computer science to meet the growing demands of the regional and national economy.</li>
-      </ul>
-    </section>
-
-    <!-- Vision / Mission -->
-    <div class="two-cards">
-      <div class="card">
-        <h3>VISION</h3>
+    <div class="dept-layout">
+      <aside class="sidebar">
         <ul>
-          <li>To create a conducive environment for skill-oriented education of high quality in the field of Computer Science and Information Technology.</li>
-          <li>To develop the students' abilities to be able to compete in global technological society.</li>
+          <li (click)="setActiveSection('overview')" [class.active]="activeSection === 'overview'">Overview</li>
+          <li (click)="setActiveSection('objectives')" [class.active]="activeSection === 'objectives'">Objectives</li>
+          <li (click)="setActiveSection('vision-mission')" [class.active]="activeSection === 'vision-mission'">Vision & Mission</li>
+          <li (click)="setActiveSection('achievements')" [class.active]="activeSection === 'achievements'">Achievements</li>
+          <li (click)="setActiveSection('faculty-profile')" [class.active]="activeSection === 'faculty-profile'">Faculty Profile</li>
+          <li (click)="setActiveSection('best-practices')" [class.active]="activeSection === 'best-practices'">Best Practices</li>
+          <li (click)="setActiveSection('activities')" [class.active]="activeSection === 'activities'">Activities</li>
+          <li (click)="setActiveSection('career')" [class.active]="activeSection === 'career'">Career & Eligibility</li>
+          <li (click)="setActiveSection('rules')" [class.active]="activeSection === 'rules'">Rules & Regulations</li>
+          <li (click)="setActiveSection('syllabus')" [class.active]="activeSection === 'syllabus'">Syllabus</li>
+          <li (click)="setActiveSection('results')" [class.active]="activeSection === 'results'">Result Analysis</li>
+          <li (click)="setActiveSection('research')" [class.active]="activeSection === 'research'">Research Publications</li>
         </ul>
-      </div>
+      </aside>
 
-      <div class="card">
-        <h3>MISSION</h3>
-        <ul>
-          <li>To share the knowledge in Computer Science and in interdisciplinary areas to benefit the students; to develop the students from rural area so that they can make careers in Information Technology; to educate students to be successful, ethical, and effective problem-solvers and life-long learners who will contribute positively to the economic well-being of our region and nation; prepare the students to tackle complex 21st Century challenges.</li>
-        </ul>
-      </div>
-    </div>
+      <div class="content">
+
+        <!-- Overview -->
+        <article class="card" *ngIf="activeSection === 'overview'">
+          <h2>Overview</h2>
+          <p>
+            Department of Marathi has been established with the vision of conservation of Indian culture,
+            literature, and regional language, as well as promotion of the mother language in all sectors of human life.
+            It offers graduate programme B.A. Marathi since 2002, and M.A. Marathi since 2021.
+            The department aims to promote Marathi language & culture and study its history.
+            There are 2 faculty members. The future complex will have a library, seminar rooms, and research cubicles.
+            The department has a valuable collection of manuscripts and is actively collecting more.
+          </p>
+        </article>
+
+        <!-- Objectives -->
+        <section class="card" *ngIf="activeSection === 'objectives'">
+          <h2>Objectives</h2>
+          <ul>
+            <li>teach students how to use computers effectively, creatively, and intelligently.</li>
+            <li>teach computer science as a multifaceted, humanistic discipline of problem solving.</li>
+            <li>provide up-to-date curricula in the technical and scientific knowledge needed for the professional and academic goals of our students.</li>
+            <li>teach students how to acquire new knowledge, independently, in a world that changes rapidly.</li>
+            <li>provide students with experiential learning opportunities.</li>
+            <li>educate an increasing number of undergraduates in computer science to meet the growing demands of the regional and national economy.</li>
+          </ul>
+        </section>
+
+        <!-- Vision / Mission -->
+        <div class="two-cards" *ngIf="activeSection === 'vision-mission'">
+          <div class="card">
+            <h3>VISION</h3>
+            <ul>
+              <li>To create a conducive environment for skill-oriented education of high quality in the field of Computer Science and Information Technology.</li>
+              <li>To develop the students' abilities to be able to compete in global technological society.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>MISSION</h3>
+            <ul>
+              <li>To share the knowledge in Computer Science and in interdisciplinary areas to benefit the students; to develop the students from rural area so that they can make careers in Information Technology; to educate students to be successful, ethical, and effective problem-solvers and life-long learners who will contribute positively to the economic well-being of our region and nation; prepare the students to tackle complex 21st Century challenges.</li>
+            </ul>
+          </div>
+        </div>
 
     <!-- Achievements / Features -->
     <section class="card">
@@ -250,9 +270,6 @@
         </tbody>
       </table>
     </section>
-
-  </main>
-</section>
 
  
  
@@ -612,4 +629,8 @@
 
   </div>
   <!-- table end -->
+  </div>
+    </div>
+  </main>
+</section>
    <app-footer></app-footer>
