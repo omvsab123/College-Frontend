@@ -23,14 +23,18 @@
           <li (click)="setActiveSection('objectives')" [class.active]="activeSection === 'objectives'">Objectives</li>
           <li (click)="setActiveSection('vision-mission')" [class.active]="activeSection === 'vision-mission'">Vision & Mission</li>
           <li (click)="setActiveSection('achievements')" [class.active]="activeSection === 'achievements'">Achievements</li>
-          <li (click)="setActiveSection('faculty-profile')" [class.active]="activeSection === 'faculty-profile'">Faculty Profile</li>
           <li (click)="setActiveSection('best-practices')" [class.active]="activeSection === 'best-practices'">Best Practices</li>
-          <li (click)="setActiveSection('activities')" [class.active]="activeSection === 'activities'">Activities</li>
-          <li (click)="setActiveSection('career')" [class.active]="activeSection === 'career'">Career & Eligibility</li>
-          <li (click)="setActiveSection('rules')" [class.active]="activeSection === 'rules'">Rules & Regulations</li>
-          <li (click)="setActiveSection('syllabus')" [class.active]="activeSection === 'syllabus'">Syllabus</li>
-          <li (click)="setActiveSection('results')" [class.active]="activeSection === 'results'">Result Analysis</li>
-          <li (click)="setActiveSection('research')" [class.active]="activeSection === 'research'">Research Publications</li>
+          <li (click)="setActiveSection('teaching-pedagogy')" [class.active]="activeSection === 'teaching-pedagogy'">Teaching Pedagogy</li>
+          <li (click)="setActiveSection('ict-integration')" [class.active]="activeSection === 'ict-integration'">ICT Integration</li>
+          <li (click)="setActiveSection('laboratory')" [class.active]="activeSection === 'laboratory'">Laboratory & Practical Work</li>
+          <li (click)="setActiveSection('assessment')" [class.active]="activeSection === 'assessment'">Assessment & Evaluation</li>
+          <li (click)="setActiveSection('co-curricular')" [class.active]="activeSection === 'co-curricular'">Co-Curricular Activities</li>
+          <li (click)="setActiveSection('experiential')" [class.active]="activeSection === 'experiential'">Experiential Learning</li>
+          <li (click)="setActiveSection('collaborative')" [class.active]="activeSection === 'collaborative'">Collaborative Learning</li>
+          <li (click)="setActiveSection('training-placement')" [class.active]="activeSection === 'training-placement'">Training & Placement</li>
+          <li (click)="setActiveSection('research-papers')" [class.active]="activeSection === 'research-papers'">Research Papers</li>
+          <li (click)="setActiveSection('faculty')" [class.active]="activeSection === 'faculty'">Faculty</li>
+          <li (click)="setActiveSection('course-structure')" [class.active]="activeSection === 'course-structure'">Course Structure</li>
         </ul>
       </aside>
 
@@ -80,24 +84,24 @@
           </div>
         </div>
 
-    <!-- Achievements / Features -->
-    <section class="card">
-      <h2>Student Achievements </h2>
-      <p>Awards, news</p>
+        <!-- Achievements / Features -->
+        <section class="card" *ngIf="activeSection === 'achievements'">
+          <h2>Student Achievements </h2>
+          <p>Awards, news</p>
 
-      <h3>Participation</h3>
-      <ul>
-        <li>Students regularly participate and win accolades in coding competitions, paper presentations, business quizzes, and startup hackathons.</li>
-        <li>Participation in social outreach programs and NSS activities reflects our commitment to holistic development.</li>
-      </ul>
-    </section>
+          <h3>Participation</h3>
+          <ul>
+            <li>Students regularly participate and win accolades in coding competitions, paper presentations, business quizzes, and startup hackathons.</li>
+            <li>Participation in social outreach programs and NSS activities reflects our commitment to holistic development.</li>
+          </ul>
+        </section>
 
     
 
-    <!-- Best Practices -->
-    <section class="card">
-      <h2>Best Practices</h2>
-      <p>•	Class Guardian and Mentor-Mentee System: A structured mentoring program to ensure personalized academic and emotional support to each student.</p>
+        <!-- Best Practices -->
+        <section class="card" *ngIf="activeSection === 'best-practices'">
+          <h2>Best Practices</h2>
+          <p>•	Class Guardian and Mentor-Mentee System: A structured mentoring program to ensure personalized academic and emotional support to each student.</p>
       <p>•	Remedial and Bridge Courses: Special sessions conducted for academically weaker students and non-IT background learners to strengthen foundational knowledge.</p>
       <p>•	Skill Enhancement Courses: Add-on and certification courses in trending technologies such as Python, AI, Data Analytics, Cloud Computing, and Cybersecurity.</p>
        <p>•	Industry Collaboration:Strategic MoUs with IT companies and training institutes to facilitate student internships, live projects, and placements.</p>
@@ -105,7 +109,7 @@
       </section>
 
     <!-- Activities -->
-    <section class="card">
+    <section class="card" *ngIf="activeSection === 'activities'">
       <h2>Teaching Pedagogy</h2>
       <p>Our department adopts a variety of innovative teaching methodologies to enhance student engagement and academic performance:</p>
       <ul>
@@ -118,7 +122,7 @@
         <li>Online Assessments and ICT-based Teaching using Google Meet, PPTs, and Learning Management Systems (LMS)</li>
       </ul>
     </section>
-     <section class="card">
+     <section class="card" *ngIf="activeSection === 'ict-integration'">
       <h2>ICT Integration in Teaching</h2>
       <p>The department is equipped with a modern computer lab, high-speed internet, LCD projectors, and ICT tools to support blended learning. Faculty members use:</p>
       <ul>
@@ -128,7 +132,7 @@
         <li>PPTs, e-notes, and quizzes for continuous engagement</li>
       </ul>
     </section>
-     <section class="card">
+     <section class="card" *ngIf="activeSection === 'laboratory'">
       <h2>Laboratory & Practical Work</h2>
       <ul>
         <li>Dedicated practical sessions are an integral part of the BBA(CA) curriculum.</li>
@@ -137,7 +141,7 @@
         <li>Real-time projects and coding challenges help enhance problem-solving abilities.</li>
       </ul>
     </section>
-     <section class="card">
+     <section class="card" *ngIf="activeSection === 'assessment'">
       <h2>Assessment & Evaluation</h2>
       <ul>
         <li>Examinations are conducted as per the university guidelines.</li>
@@ -150,7 +154,7 @@
    
 
     <!-- Rules & Strengths -->
-    <section class="card">
+    <section class="card" *ngIf="activeSection === 'department-activities'">
       <h2>Co-Curricular and Extra-Curricular Activities</h2>
       <p>The department organizes various academic and personality development events throughout the year:</p>
 
@@ -166,7 +170,7 @@
     </section>
 
     <!-- Syllabus / Department Activities -->
-    <section class="card">
+    <section class="card" *ngIf="activeSection === 'syllabus'">
       <h2>Experiential Learning Initiatives</h2>
 
       <ul>
@@ -176,7 +180,7 @@
         <li>Live Projects guided by industry experts and faculty mentors.</li>
       </ul>
     </section>
-      <section class="card">
+      <section class="card" *ngIf="activeSection === 'collaborative-learning'">
       <h2>Collaborative Learning & Industry Interface</h2>
       <p>To align academic knowledge with industry expectations, the department has entered into collaborations with reputed organizations:</p>
 
@@ -187,7 +191,7 @@
         <li>Guest sessions by professionals from software firms, startups, and business consultancies.</li>
       </ul>
     </section>
-     <section class="card">
+     <section class="card" *ngIf="activeSection === 'training-placement'">
       <h2>Training & Placement Support</h2>
 
       <ul>
@@ -196,7 +200,7 @@
         <li>Alumni mentoring for guidance in higher studies and job readiness.</li>
       </ul>
     </section>
-    <section class="card">
+    <section class="card" *ngIf="activeSection === 'research'">
       <h2>Student Achievements & Participation</h2>
 
       <ul>
@@ -275,7 +279,7 @@
  
 
 <!-- faculty img cards start -->
-<div id="faculty-wrapper">
+<div id="faculty-wrapper" *ngIf="activeSection === 'faculty'">
 
   <h2 id="faculty-title"> Teaching Staff</h2>
 
@@ -527,7 +531,7 @@
   
   <!-- table start -->
    
-<div class="bsc-container" style="margin-top: 80px;">
+<div class="bsc-container" style="margin-top: 80px;" *ngIf="activeSection === 'infrastructure'">
     <div class="bsc-card">
       <div class="bsc-header">
         <h1>Science Faculty — UG Courses — B.Sc. (Computer Science)</h1>

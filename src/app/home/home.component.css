@@ -190,7 +190,7 @@ a img {
   display: flex;
   flex-direction: column;
   will-change: transform;
-  animation: marquee-scroll 3s linear infinite;  /* FIX ADDED */
+  animation: marquee-scroll 1.5s linear infinite;  /* FIX ADDED */
 }
 
 .marquee-item {
