@@ -1,0 +1,24 @@
+<div class="dept-layout">
+  <div class="sidebar">
+    <ul>
+      <li (click)="setActiveSection('overview')" [class.active]="activeSection === 'overview'">Overview</li>
+      <li (click)="setActiveSection('faculty')" [class.active]="activeSection === 'faculty'">Faculty</li>
+      <li (click)="setActiveSection('courses')" [class.active]="activeSection === 'courses'">Courses</li>
+    </ul>
+  </div>
+  <div class="content">
+    <div *ngIf="activeSection === 'overview'">
+      <h2>Department Overview</h2>
+      <p>Content for MA department overview will be added here.</p>
+    </div>
+    <div *ngIf="activeSection === 'faculty'">
+      <h2>Faculty</h2>
+      <p>Faculty details will be added here.</p>
+    </div>
+    <div *ngIf="activeSection === 'courses'">
+      <h2>Courses</h2>
+      <p>Course information will be added here.</p>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>
