@@ -1,6 +1,961 @@
+  
+  <!-- marathi-department.component.html -->
+<section class="dept-page" style='margin-top:150px;'>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="dept-title">
+        <h1> B.B.A. Computer Applications</h1>
+        <p class="tagline">Preserving language — promoting literature — empowering rural youth</p>
+      </div>
+      <div class="dept-hero-img">
+        <img src="../../assets/fwd/compApplication.jpg" alt="Department of comp.application" />
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="dept-layout">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <ul>
+          <li (click)="setActiveSection('overview')" [class.active]="activeSection === 'overview'">Overview</li>
+          <li (click)="setActiveSection('objectives')" [class.active]="activeSection === 'objectives'">Objectives</li>
+          <li (click)="setActiveSection('vision-mission')" [class.active]="activeSection === 'vision-mission'">Vision & Mission</li>
+          <li (click)="setActiveSection('achievements')" [class.active]="activeSection === 'achievements'">Achievements</li>
+          <li (click)="setActiveSection('best-practices')" [class.active]="activeSection === 'best-practices'">Best Practices</li>
+          <li (click)="setActiveSection('teaching-pedagogy')" [class.active]="activeSection === 'teaching-pedagogy'">Teaching Pedagogy</li>
+          <li (click)="setActiveSection('ict-integration')" [class.active]="activeSection === 'ict-integration'">ICT Integration</li>
+          <li (click)="setActiveSection('laboratory')" [class.active]="activeSection === 'laboratory'">Laboratory & Practical Work</li>
+          <li (click)="setActiveSection('assessment')" [class.active]="activeSection === 'assessment'">Assessment & Evaluation</li>
+          <li (click)="setActiveSection('co-curricular')" [class.active]="activeSection === 'co-curricular'">Co-Curricular Activities</li>
+          <li (click)="setActiveSection('experiential')" [class.active]="activeSection === 'experiential'">Experiential Learning</li>
+          <li (click)="setActiveSection('collaborative')" [class.active]="activeSection === 'collaborative'">Collaborative Learning</li>
+          <li (click)="setActiveSection('training-placement')" [class.active]="activeSection === 'training-placement'">Training & Placement</li>
+          <li (click)="setActiveSection('research-papers')" [class.active]="activeSection === 'research-papers'">Research Papers</li>
+          <li (click)="setActiveSection('faculty')" [class.active]="activeSection === 'faculty'">Faculty</li>
+          <li (click)="setActiveSection('course-structure')" [class.active]="activeSection === 'course-structure'">Course Structure</li>
+        </ul>
+      </aside>
+
+      <!-- Main Content -->
+      <div class="content">
+
+        <!-- Overview -->
+        <article class="card" *ngIf="activeSection === 'overview'">
+          <h2>Overview</h2>
+          <p>
+            Department of Marathi has been established with the vision of conservation of Indian culture,
+            literature, and regional language, as well as promotion of the mother language in all sectors of human life.
+            It offers graduate programme B.A. Marathi since 2002, and M.A. Marathi since 2021.
+            The department aims to promote Marathi language & culture and study its history.
+            There are 2 faculty members. The future complex will have a library, seminar rooms, and research cubicles.
+            The department has a valuable collection of manuscripts and is actively collecting more.
+          </p>
+        </article>
+
+        <!-- Objectives -->
+        <section class="card" *ngIf="activeSection === 'objectives'">
+          <h2>Objectives</h2>
+          <ul>
+            <li>teach students how to use computers effectively, creatively, and intelligently.</li>
+            <li>teach computer science as a multifaceted, humanistic discipline of problem solving.</li>
+            <li>provide up-to-date curricula in the technical and scientific knowledge needed for the professional and academic goals of our students.</li>
+            <li>teach students how to acquire new knowledge, independently, in a world that changes rapidly.</li>
+            <li>provide students with experiential learning opportunities.</li>
+            <li>educate an increasing number of undergraduates in computer science to meet the growing demands of the regional and national economy.</li>
+          </ul>
+        </section>
+
+        <!-- Vision / Mission -->
+        <div class="two-cards" *ngIf="activeSection === 'vision-mission'">
+          <div class="card">
+            <h3>VISION</h3>
+            <ul>
+              <li>To create a conducive environment for skill-oriented education of high quality in the field of Computer Science and Information Technology.</li>
+              <li>To develop the students' abilities to be able to compete in global technological society.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>MISSION</h3>
+            <ul>
+              <li>To share the knowledge in Computer Science and in interdisciplinary areas to benefit the students; to develop the students from rural area so that they can make careers in Information Technology; to educate students to be successful, ethical, and effective problem-solvers and life-long learners who will contribute positively to the economic well-being of our region and nation; prepare the students to tackle complex 21st Century challenges.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Achievements / Features -->
+        <section class="card" *ngIf="activeSection === 'achievements'">
+          <h2>Student Achievements </h2>
+          <p>Awards, news</p>
+
+          <h3>Participation</h3>
+          <ul>
+            <li>Students regularly participate and win accolades in coding competitions, paper presentations, business quizzes, and startup hackathons.</li>
+            <li>Participation in social outreach programs and NSS activities reflects our commitment to holistic development.</li>
+          </ul>
+        </section>
+
+        
+
+        <!-- Best Practices -->
+        <section class="card" *ngIf="activeSection === 'best-practices'">
+          <h2>Best Practices</h2>
+          <p>•	Class Guardian and Mentor-Mentee System: A structured mentoring program to ensure personalized academic and emotional support to each student.</p>
+          <p>•	Remedial and Bridge Courses: Special sessions conducted for academically weaker students and non-IT background learners to strengthen foundational knowledge.</p>
+          <p>•	Skill Enhancement Courses: Add-on and certification courses in trending technologies such as Python, AI, Data Analytics, Cloud Computing, and Cybersecurity.</p>
+           <p>•	Industry Collaboration:Strategic MoUs with IT companies and training institutes to facilitate student internships, live projects, and placements.</p>
+           <p>•	Guest Lectures and Industry Talks:Regular sessions conducted by industry professionals to keep students updated with the latest trends and practices.</p>
+          </section>
+
+        <!-- Activities -->
+        <section class="card" *ngIf="activeSection === 'teaching-pedagogy'">
+          <h2>Teaching Pedagogy</h2>
+          <p>Our department adopts a variety of innovative teaching methodologies to enhance student engagement and academic performance:</p>
+          <ul>
+            <li>	Interactive Lectures & Group Discussions</li>
+            <li>Flipped Classroom Approach using YouTube and Google Classroom</li>
+            <li>Computer-Assisted Learning with hands-on software tools</li>
+            <li>Field Visits & Industrial Exposure for real-world learning</li>
+            <li>Assignments, Mini Projects, and Presentations to improve practical skills</li>
+            <li>Expert Guidance & Aptitude Training for competitive readiness</li>
+            <li>Online Assessments and ICT-based Teaching using Google Meet, PPTs, and Learning Management Systems (LMS)</li>
+          </ul>
+        </section>
+         <section class="card" *ngIf="activeSection === 'ict-integration'">
+          <h2>ICT Integration in Teaching</h2>
+          <p>The department is equipped with a modern computer lab, high-speed internet, LCD projectors, and ICT tools to support blended learning. Faculty members use:</p>
+          <ul>
+            <li>Google Classroom for assignment sharing and communication</li>
+            <li>Video lectures for complex topic explanations</li>
+            <li>WhatsApp groups for real-time student interaction and updates</li>
+            <li>PPTs, e-notes, and quizzes for continuous engagement</li>
+          </ul>
+        </section>
+         <section class="card" *ngIf="activeSection === 'laboratory'">
+          <h2>Laboratory & Practical Work</h2>
+          <ul>
+            <li>Dedicated practical sessions are an integral part of the BBA(CA) curriculum.</li>
+            <li>Each session includes detailed explanations, demonstrations, and supervised hands-on practice.</li>
+            <li>Additional lab hours are provided for students requiring extra support in programming and software tools.</li>
+            <li>Real-time projects and coding challenges help enhance problem-solving abilities.</li>
+          </ul>
+        </section>
+         <section class="card" *ngIf="activeSection === 'assessment'">
+          <h2>Assessment & Evaluation</h2>
+          <ul>
+            <li>Examinations are conducted as per the university guidelines.</li>
+            <li>Internal evaluations include two prelim exams, assignments, viva, and practical tests.</li>
+            <li>Continuous assessments ensure regular academic tracking and timely intervention.</li>
+            <li>Final year students undertake Industrial Training Projects to gain real-world exposure.</li>
+          </ul>
+        </section>
+
+       
+
+        <!-- Rules & Strengths -->
+        <section class="card" *ngIf="activeSection === 'co-curricular'">
+          <h2>Co-Curricular and Extra-Curricular Activities</h2>
+          <p>The department organizes various academic and personality development events throughout the year:</p>
+
+        <ol>
+          <li>Student Induction Program</li>
+          <li>Poster and Essay Competitions</li>
+          <li>Technical Workshops and Hands-on Training</li>
+          <li>Awareness Campaigns on Cybersecurity and Digital Literacy</li>
+          <li>Meditation, Yoga & Wellness Programs</li>
+          <li>Guest Lectures on Industry Trends</li>
+          <li>Workshops on Resume Building, Soft Skills & Interview Techniques</li>
+        </ol>
+        </section>
+
+        <!-- Syllabus / Department Activities -->
+        <section class="card" *ngIf="activeSection === 'experiential'">
+          <h2>Experiential Learning Initiatives</h2>
+
+          <ul>
+            <li>Industrial Visits to software companies, tech hubs, and startups.</li>
+            <li>Business Fairs to develop entrepreneurial thinking and marketing strategies.</li>
+            <li>Simulation Activities and role-playing exercises to instill business and IT skills.</li>
+            <li>Live Projects guided by industry experts and faculty mentors.</li>
+          </ul>
+        </section>
+          <section class="card" *ngIf="activeSection === 'collaborative'">
+          <h2>Collaborative Learning & Industry Interface</h2>
+          <p>To align academic knowledge with industry expectations, the department has entered into collaborations with reputed organizations:</p>
+
+          <ul>
+            <li>MoUs with Tech Companies for training, internships, and placements.</li>
+            <li>Internship programs for third-year students to gain practical exposure.</li>
+            <li>Industrial mentorship programs to provide guidance on career paths and latest tools.</li>
+            <li>Guest sessions by professionals from software firms, startups, and business consultancies.</li>
+          </ul>
+        </section>
+         <section class="card" *ngIf="activeSection === 'training-placement'">
+          <h2>Training & Placement Support</h2>
+
+          <ul>
+            <li>Dedicated Training and Placement Cell coordinates pre-placement training, resume preparation, and mock interviews.</li>
+            <li>Tie-ups with recruitment agencies and software firms to ensure career opportunities for students.</li>
+            <li>Alumni mentoring for guidance in higher studies and job readiness.</li>
+          </ul>
+        </section>
+        <section class="card" *ngIf="activeSection === 'research-papers'">
+          <h2>Research Paper Publication</h2>
+          <table class="research-table">
+            <thead><tr><th>Sr. No.</th><th>Name of faculty</th><th>Workshop/ Seminar/ Conference</th><th>Level (Internation/ National/ State)</th><th>Activity (Participation/ Paper Presentation)</th><th>Journal Name</th><th>Title of Paper</th></tr></thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Prof. Adhav P. H.</td>
+                <td>Conference</td>
+                <td>International</td>
+                <td>Participation</td>
+                <td>International Journal of Scientific Research in Engineering and Management (IJSREM)</td>
+                <td>Comparative Study of Java and Python Languages with Reference to Data Science</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Prof. Adhav P. H.</td>
+                <td>Conference</td>
+                <td>International</td>
+                <td>Presentation</td>
+                <td>International Research Journal of Modernization in Engineering Technology and Science (IRJMETS)</td>
+                <td>Evaluating the impact of compiler optimizations on program Performance: a comparative analysis of c, c++, and java</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Prof. Bhosale H. V.</td>
+                <td>Conference</td>
+                <td>International</td>
+                <td>Participation</td>
+                <td>International Journal of Multifaceted and Multilingual Studies</td>
+                <td>Comparative Study of Cloud Platforms for Data Science: Evaluate AWS, Google Cloud and Azure</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Prof. Choudhari V. M.</td>
+                <td>Conference</td>
+                <td>International</td>
+                <td>Participation</td>
+                <td>International Journal of Multifaceted and Multilingual Studies</td>
+                <td>evaluating data visualization tools - tablue,power BI and Excel</td>
+              </tr>
+               <tr>
+                <td>5</td>
+                <td>Prof. Shinde A. S.</td>
+                <td>Conference</td>
+                <td>International</td>
+                <td>Participation</td>
+                <td>International Journal of Multifaceted and Multilingual Studies</td>
+                <td>Artificial Intelligence and Machine Learning</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Prof. Thorat P. B.</td>
+                <td>Conference</td>
+                <td>International</td>
+                <td>Participation</td>
+                <td>International Journal of Multifaceted and Multilingual Studies</td>
+                <td>Automated Air Pollution Detection and Control in Vehicles</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <!-- faculty img cards start -->
+        <div id="faculty-wrapper" *ngIf="activeSection === 'faculty'">
+
+          <h2 id="faculty-title"> Teaching Staff</h2>
+
+          <div id="faculty-grid">
+
+            <!-- Faculty Box -->
+            <div id="faculty-box">
+              <img src="../../assets/fwd/adhav_comp.science.JPG">
+              <h4>Pratik Hanumant Adhav</h4>
+              <p>Head of the Department (Computer Applications)</p>
+              <span>M.Sc. Comp. Sci. | 1.5 Years</span>
+
+              <button id="view-btn"
+                (click)="openProfile(
+                  '../../assets/fwd/adhav_comp.science.JPG',
+                  'Pratik Hanumant Adhav',
+                  'Head of the Department (Computer Applications)',
+                  'M.Sc. Comp. Sci.',
+                  '1.5 Years',
+                  'JAVA, PYTHON, Digital Marketing, CPP',
+                  '+91 74475 27531',
+                  'adhavpratik77@gmail.com'
+                )">
+                View Profile
+              </button>
+            </div>
+
+            <div id="faculty-box">
+              <img src="../../assets/fwd/bhosale_comp science.JPG">
+              <h4>Bhosale Harshal Vijay</h4>
+              <p>Assistant Professor</p>
+              <span>M.Sc. Comp. Sci. |1.5 Years</span>
+
+              <button id="view-btn"
+                (click)="openProfile(
+                  '../../assets/fwd/bhosale_comp science.JPG',
+                  'Bhosale Harshal Vijay',
+                  'Assistant Professor',
+                  'M.Sc. Comp. Sci.',
+                  '1.5 Years',
+                  'Data science, PYTHON',
+                  '+91 9011693567',
+                  'harshalvbhosale9123@gmail.com'
+                )">
+                View Profile
+              </button>
+            </div>
+
+            <div id="faculty-box">
+              <img src="../../assets/fwd/anuja_comp.jpg">
+              <h4>Anuja Shankar Shinde </h4>
+              <p>Assistant Professor</p>
+              <span>M.Sc. Comp. Sci. |1.5 Years</span>
+
+              <button id="view-btn"
+                (click)="openProfile(
+                  '../../assets/fwd/anuja_comp.jpg',
+                  'Anuja Shankar Shinde',
+                  'Assistant Professor',
+                  'M.Sc. Comp. Sci.',
+                  '1.5 Years',
+                  'Operating System, DBMS',
+                  '+91 7517996023',
+                  'shindeanu0506@gmail.com'
+                )">
+                View Profile
+              </button>
+            </div>
+
+            <div id="faculty-box">
+              <img src="../../assets/fwd/thorat_comp.science.JPG">
+              <h4>Thorat Prajakta Balasaheb </h4>
+              <p>Assistant Professor</p>
+              <span>Electronics and Telecommunication Engineering  | 14 Years</span>
+
+              <button id="view-btn"
+                (click)="openProfile(
+                  '../../assets/fwd/thorat_comp.science.JPG',
+                  'Thorat Prajakta Balasaheb ',
+                  'Assistant Professor',
+                  'Electronics and Telecommunication Engineering ',
+                  '2.5 Years',
+                  'Electronics',
+                  '+91 7507748581',
+                  'prajakta8581@gmail.com '
+                )">
+                View Profile
+              </button>
+            </div>
+
+              <div id="faculty-box">
+              <img src="../../assets/fwd/tilekar_comp.jpg">
+              <h4>Tilekar Gaurav Rajendra </h4>
+              <p>Assistant Professor</p>
+              <span>MCA | 0.7 Years</span>
+
+              <button id="view-btn"
+                (click)="openProfile(
+                  '../../assets/fwd/tilekar_comp.jpg',
+                  'Tilekar Gaurav Rajendra ',
+                  'Assistant Professor',
+                  'MCA',
+                  '0.7 Years',
+                  'Data Structure',
+                  '+91 7040040659',
+                  'gauravtilekar05@gmail.com'
+                )">
+                View Profile
+              </button>
+            </div>
+            
+            <div id="faculty-box">
+              <img src="../../assets/fwd/ambruta_comp.jpg">
+              <h4>Amruta Bapte</h4>
+              <p>Assistant Professor</p>
+              <span>MCA | 14 Years</span>
+
+              <button id="view-btn"
+                (click)="openProfile(
+                  '../../assets/fwd/ambruta_comp.jpg',
+                  'Amruta Sameer Bapte',
+                  'Assistant Professor',
+                  'MCA',
+                  '14 Years',
+                  'DBMS, PLSQL,CSS,JS, Web Development',
+                  '+91 9420425226',
+                  'abapte@gmail.com'
+
+                )">
+                View Profile
+              </button>
+            </div>
+
+            <div id="faculty-box">
+              <img src="../../assets/fwd/nagavde_comp.jpg">
+              <h4>Nagawade Manali Shankar</h4>
+              <p>Assistant Professor</p>
+              <span>MCA | 0.7 Years</span>
+
+              <button id="view-btn"
+                (click)="openProfile(
+                  '../../assets/fwd/nagavde_comp.jpg',
+                  'Nagawade Manali Shankar',
+                  'Assistant Professor',
+                  'MCA',
+                  '0.7 Years',
+                  'C programming',
+                  '+91 7020865708',
+                  'manalinagawade@gmail.com'
+                )">
+                View Profile
+              </button>
+            </div>
+
+            <div id="faculty-box">
+              <img src="../../assets/fwd/kumbhar_comp.jpg">
+              <h4>Kumbhar Rutuja Pradip</h4>
+              <p>Assistant Professor</p>
+              <span>MCA | 0.3 Years</span>
+
+              <button id="view-btn"
+                (click)="openProfile(
+                  '../../assets/fwd/kumbhar_comp.jpg',
+                  'Kumbhar Rutuja Pradip',
+                  'Assistant Professor',
+                  'MCA',
+                  '0.3 Years',
+                  'Java',
+                  '+91 9370794159',
+                  '001rutuja@gmqil.com'
+                )">
+                View Profile
+              </button>
+            </div>
+
+            <div id="faculty-box">
+              <img src="../../assets/fwd/ketki_comp.jpg">
+              <h4>Ketki Ashok Salunkhe</h4>
+              <p>Assistant Professor</p>
+              <span>M.Sc. (Statistics) | 0.4 Years</span>
+
+              <button id="view-btn"
+                (click)="openProfile(
+                  '../../assets/fwd/ketki_comp.jpg',
+                  'Ketki Ashok Salunkhe',
+                  'Assistant Professor',
+                  'M.Sc. (Statistics)',
+                  '0.4 Years',
+                  'Statistics, Mathematics',
+                  '+91 9763917674',
+                  'ketkisalunkhe2001@gmail.com'
+                )">
+                View Profile
+              </button>
+            </div>
+
+            <div id="faculty-box">
+              <img src="../../assets/fwd/bappu_labAssis.jpg">
+              <h4>Jagtap Bapu Uttareshwar</h4>
+              <p>Lab Assistant</p>
+              <span>B.A.CCNA | 16 Years</span>
+
+              <button id="view-btn"
+                (click)="openProfile(
+                  '../../assets/fwd/bappu_labAssis.jpg',
+                  'Jagtap Bapu Uttareshwar',
+                  'Lab Assistant',
+                  'B.A.CCNA',
+                  '16 Years',
+                  'B.A.CCNA',
+                  '+91 9763989095',
+                  'manishjagtap7@gmail.com'
+                )">
+                View Profile
+              </button>
+            </div>
+
+            <!-- Copy same box for remaining staff -->
+
+          </div>
+        </div>
+
+        <!-- MODAL -->
+        <div id="modal-bg" *ngIf="showModal">
+          <div id="modal-card">
+            <span id="close-btn" (click)="closeProfile()">×</span>
+
+            <img [src]="profile.img">
+            <h3>{{ profile.name }}</h3>
+            <p><b>Designation:</b> {{ profile.designation }}</p>
+            <p><b>Qualification:</b> {{ profile.qualification }}</p>
+            <p><b>Experience:</b> {{ profile.experience }}</p>
+            <p><b>Expertise:</b> {{ profile.expertise }}</p>
+            <p><b>Mobile:</b> {{ profile.mobile }}</p>
+            <p><b>Email:</b> {{ profile.email }}</p>
+          </div>
+        </div>
+        <!-- faculty img cards end  -->
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+          <!-- table start -->
+        <section class="bba-course-structure" *ngIf="activeSection === 'course-structure'" style="margin-top: 50px;">
+          <h2 class="bba-title">SCIENCE FACULTY: UG COURSES – <span>B.B.A. (Computer Applications)</span></h2>
+          <h3 class="bba-subtitle">F.Y. B.B.A. (CA) Course Structure (2024 Pattern) (NEP)</h3>
+
+          <div class="bba-table-wrapper">
+            <table class="bba-table">
+              <thead>
+                <tr>
+                  <th colspan="3" class="sem-header">Semester I (2024 Pattern)</th>
+                  <th colspan="3" class="sem-header">Semester II (2024 Pattern)</th>
+                </tr>
+                <tr>
+                  <th>Course</th>
+                  <th>Subject Code</th>
+                  <th>Subject Name</th>
+                  <th>Course</th>
+                  <th>Subject Code</th>
+                  <th>Subject Name</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>Major</td><td>BBACA101T</td><td>Problem Solving Using C</td><td>Major</td><td>BBACA201T</td><td>Advance C Programming</td></tr>
+                <tr><td>Major</td><td>BBACA102T</td><td>Data Base Management System</td><td>Major</td><td>BBACA202T</td><td>Relational Database Management System (RDBMS)</td></tr>
+                <tr><td>Major (P)</td><td>BBACA101P</td><td>Computer Laboratory based on C Programming and DBMS</td><td>Major (P)</td><td>BBACA201P</td><td>Computer Laboratory Based on Advance C and RDBMS</td></tr>
+                <tr><td>OE</td><td>OE-103-MTS</td><td>Business Mathematics</td><td>Minor</td><td>BBACA201M I</td><td>Principle and Practices of Management</td></tr>
+                <tr><td>OE</td><td>OE-103-STS</td><td>Business Statistics</td><td>OE</td><td>OE-101-CA</td><td>Introduction to Data Science</td></tr>
+                <tr><td>VSC</td><td>BBACA101VSC</td><td>Office Automation Tools</td><td>OE</td><td>OE-102-IT</td><td>Tally Prime</td></tr>
+                <tr><td>SEC</td><td>BBACA101SEC</td><td>Programming Principles and Algorithm</td><td>VSC (P)</td><td>BBACA201VSC</td><td>Web Technology</td></tr>
+                <tr><td>AEC</td><td>BBACA101AEC</td><td>Business Communication Skills – I</td><td>SEC</td><td>BBACA201SEC</td><td>E-Commerce</td></tr>
+                <tr><td>VEC</td><td>BBACA101VEC</td><td>Environmental Awareness</td><td>AEC</td><td>BBACA201AEC</td><td>Business Communication Skills – II</td></tr>
+                <tr><td>IKS</td><td>---</td><td>Generic IKS</td><td>VEC</td><td>BBACA201VEC</td><td>Democracy Awareness & Gender Sensitization</td></tr>
+                <tr><td>CC</td><td>BBACA101CC</td><td>Physical Education – I</td><td>CC</td><td>BBACA201CC</td><td>Physical Education – II</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+
+        <section class="bba-course-structure" *ngIf="activeSection === 'course-structure'">
+          <h2 class="bba-title">SCIENCE FACULTY: UG COURSES – <span>S.Y. B.B.A. (Computer Applications)</span></h2>
+          <h3 class="bba-subtitle">S.Y. B.B.A. (CA) Course Structure (2024 Pattern) (NEP)</h3>
+
+          <div class="bba-table-wrapper">
+            <table class="bba-table">
+              <thead>
+                <tr>
+                  <th colspan="3" class="sem-header">Semester III (2024 Pattern) (NEP)</th>
+                  <th colspan="3" class="sem-header">Semester IV (2024 Pattern) (NEP)</th>
+                </tr>
+                <tr>
+                  <th>Course</th>
+                  <th>Subject Name</th>
+                  <th></th>
+                  <th>Course</th>
+                  <th>Subject Name</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>Major</td><td>Data Structure</td><td></td><td>Major</td><td>Object Oriented Programming using C++</td><td></td></tr>
+                <tr><td>Major</td><td>PHP</td><td></td><td>Major</td><td>Advance PHP</td><td></td></tr>
+                <tr><td>Minor</td><td>Computer Laboratory based on DS, PHP</td><td></td><td>Minor</td><td>Computer Laboratory based on CPP, Adv PHP</td><td></td></tr>
+                <tr><td>OE</td><td>To be selected from the basket of the other faculty</td><td></td><td>OE</td><td>Digital Marketing</td><td></td></tr>
+                <tr><td>VSC</td><td>Web Development Tools</td><td></td><td>SEC</td><td>Computer Network</td><td></td></tr>
+                <tr><td>AEC</td><td>Modern Indian Languages – I</td><td></td><td>AEC</td><td>Modern Indian Languages – II</td><td></td></tr>
+                <tr><td>FP</td><td>Project based on Web Applications</td><td></td><td>FP</td><td>Project based on Digital Marketing</td><td></td></tr>
+                <tr><td>CC</td><td>NSS/NCC/Yoga Education/Health and Wellness/Fine Arts – I</td><td></td><td>CC</td><td>NSS/NCC/Yoga Education/Health and Wellness/Fine Arts – II</td><td></td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p class="bba-note">
+            (सूचना : विद्यार्थ्यांना लागू केलेल्या NEP च्या पाठ्यक्रमानुसार २०२४ पॅटर्ननुसार SYBBA वर्गांचे विषय वरिल प्रमाणे बदले अहेत.
+            तसे आवश्यकतेनुसार बदल होऊ शकतात.)
+          </p>
+        </section>
+
+        <!-- table 3 -->
+         <div class="body" *ngIf="activeSection === 'course-structure'">
+            <h1 class="course-title">T. Y. B.B. A. (CA) Course Structure (2019 Pattern)</h1>
+
+            <div class="table-container">
+
+                <div class="semester-box semester-five">
+                    <h2 class="semester-title five-title">Semester V (2019 Pattern)</h2>
+                    <table class="course-table five-table">
+                        <thead>
+                            <tr class="table-header-row five-header-row">
+                                <th class="header-code five-header-code">SUB CODE</th>
+                                <th class="header-name five-header-name">SUB NAME</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="table-row five-row">
+                                <td class="table-data five-data-code">CA-501</td>
+                                <td class="table-data five-data-name">Cyber Security</td>
+                            </tr>
+                            <tr class="table-row five-row">
+                                <td class="table-data five-data-code">CA-502</td>
+                                <td class="table-data five-data-name">Object Oriented Software Engineering</td>
+                            </tr>
+                            <tr class="table-row five-row">
+                                <td class="table-data five-data-code">CA-503</td>
+                                <td class="table-data five-data-name">Core Java</td>
+                            </tr>
+                            <tr class="table-row five-row">
+                                <td class="table-data five-data-code">CA-504</td>
+                                <td class="table-data five-data-name">MongoDB</td>
+                            </tr>
+                            <tr class="table-row five-row">
+                                <td class="table-data five-data-code">CA-504</td>
+                                <td class="table-data five-data-name">Python</td>
+                            </tr>
+                            <tr class="table-row five-row">
+                                <td class="table-data five-data-code">CA-505</td>
+                                <td class="table-data five-data-name">Project</td>
+                            </tr>
+                            <tr class="table-row five-row">
+                                <td class="table-data five-data-code">CA-506</td>
+                                <td class="table-data five-data-name">Computer Laboratory Based on 503 & 504</td>
+                            </tr>
+                            <tr class="table-row five-row">
+                                <td class="table-data five-data-code">CA-507</td>
+                                <td class="table-data five-data-name">Internet of Things (IoT)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="semester-box semester-six">
+                    <h2 class="semester-title six-title">Semester VI (2019 Pattern)</h2>
+                    <table class="course-table six-table">
+                        <thead>
+                            <tr class="table-header-row six-header-row">
+                                <th class="header-code six-header-code">SUB CODE</th>
+                                <th class="header-name six-header-name">SUB NAME</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="table-row six-row">
+                                <td class="table-data six-data-code">CA-601</td>
+                                <td class="table-data six-data-name">Recent Trends in IT</td>
+                            </tr>
+                            <tr class="table-row six-row">
+                                <td class="table-data six-data-code">CA-602</td>
+                                <td class="table-data six-data-name">Software Testing</td>
+                            </tr>
+                            <tr class="table-row six-row">
+                                <td class="table-data six-data-code">CA-603</td>
+                                <td class="table-data six-data-name">Advanced Java</td>
+                            </tr>
+                            <tr class="table-row six-row">
+                                <td class="table-data six-data-code">CA-604</td>
+                                <td class="table-data six-data-name">Android Programming</td>
+                            </tr>
+                            <tr class="table-row six-row">
+                                <td class="table-data six-data-code">CA-604</td>
+                                <td class="table-data six-data-name">Dot Net Framework</td>
+                            </tr>
+                            <tr class="table-row six-row">
+                                <td class="table-data six-data-code">DSE-605</td>
+                                <td class="table-data six-data-name">Project</td>
+                            </tr>
+                            <tr class="table-row six-row">
+                                <td class="table-data six-data-code">CA-606</td>
+                                <td class="table-data six-data-name">Computer Laboratory Based on 603 and 604</td>
+                            </tr>
+                            <tr class="table-row six-row">
+                                <td class="table-data six-data-code">CA- 607</td>
+                                <td class="table-data six-data-name">Soft Skill</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+
+         </div>
+
+        <!-- table end -->
+
+      </div>
+    </div>
+  </main></section>
+
+ 
+ 
+
+<!-- faculty img cards start -->
+<div id="faculty-wrapper">
+
+  <h2 id="faculty-title"> Teaching Staff</h2>
+
+  <div id="faculty-grid">
+
+    <!-- Faculty Box -->
+    <div id="faculty-box">
+      <img src="../../assets/fwd/adhav_comp.science.JPG">
+      <h4>Pratik Hanumant Adhav</h4>
+      <p>Head of the Department (Computer Applications)</p>
+      <span>M.Sc. Comp. Sci. | 1.5 Years</span>
+
+      <button id="view-btn"
+        (click)="openProfile(
+          '../../assets/fwd/adhav_comp.science.JPG',
+          'Pratik Hanumant Adhav',
+          'Head of the Department (Computer Applications)',
+          'M.Sc. Comp. Sci.',
+          '1.5 Years',
+          'JAVA, PYTHON, Digital Marketing, CPP',
+          '+91 74475 27531',
+          'adhavpratik77@gmail.com'
+        )">
+        View Profile
+      </button>
+    </div>
+
+    <div id="faculty-box">
+      <img src="../../assets/fwd/bhosale_comp science.JPG">
+      <h4>Bhosale Harshal Vijay</h4>
+      <p>Assistant Professor</p>
+      <span>M.Sc. Comp. Sci. |1.5 Years</span>
+
+      <button id="view-btn"
+        (click)="openProfile(
+          '../../assets/fwd/bhosale_comp science.JPG',
+          'Bhosale Harshal Vijay',
+          'Assistant Professor',
+          'M.Sc. Comp. Sci.',
+          '1.5 Years',
+          'Data science, PYTHON',
+          '+91 9011693567',
+          'harshalvbhosale9123@gmail.com'
+        )">
+        View Profile
+      </button>
+    </div>
+
+    <div id="faculty-box">
+      <img src="../../assets/fwd/anuja_comp.jpg">
+      <h4>Anuja Shankar Shinde </h4>
+      <p>Assistant Professor</p>
+      <span>M.Sc. Comp. Sci. |1.5 Years</span>
+
+      <button id="view-btn"
+        (click)="openProfile(
+          '../../assets/fwd/anuja_comp.jpg',
+          'Anuja Shankar Shinde',
+          'Assistant Professor',
+          'M.Sc. Comp. Sci.',
+          '1.5 Years',
+          'Operating System, DBMS',
+          '+91 7517996023',
+          'shindeanu0506@gmail.com'
+        )">
+        View Profile
+      </button>
+    </div>
+
+    <div id="faculty-box">
+      <img src="../../assets/fwd/thorat_comp.science.JPG">
+      <h4>Thorat Prajakta Balasaheb </h4>
+      <p>Assistant Professor</p>
+      <span>Electronics and Telecommunication Engineering  | 14 Years</span>
+
+      <button id="view-btn"
+        (click)="openProfile(
+          '../../assets/fwd/thorat_comp.science.JPG',
+          'Thorat Prajakta Balasaheb ',
+          'Assistant Professor',
+          'Electronics and Telecommunication Engineering ',
+          '2.5 Years',
+          'Electronics',
+          '+91 7507748581',
+          'prajakta8581@gmail.com '
+        )">
+        View Profile
+      </button>
+    </div>
+
+      <div id="faculty-box">
+      <img src="../../assets/fwd/tilekar_comp.jpg">
+      <h4>Tilekar Gaurav Rajendra </h4>
+      <p>Assistant Professor</p>
+      <span>MCA | 0.7 Years</span>
+
+      <button id="view-btn"
+        (click)="openProfile(
+          '../../assets/fwd/tilekar_comp.jpg',
+          'Tilekar Gaurav Rajendra ',
+          'Assistant Professor',
+          'MCA',
+          '0.7 Years',
+          'Data Structure',
+          '+91 7040040659',
+          'gauravtilekar05@gmail.com'
+        )">
+        View Profile
+      </button>
+    </div>
+    
+    <div id="faculty-box">
+      <img src="../../assets/fwd/ambruta_comp.jpg">
+      <h4>Amruta Bapte</h4>
+      <p>Assistant Professor</p>
+      <span>MCA | 14 Years</span>
+
+      <button id="view-btn"
+        (click)="openProfile(
+          '../../assets/fwd/ambruta_comp.jpg',
+          'Amruta Sameer Bapte',
+          'Assistant Professor',
+          'MCA',
+          '14 Years',
+          'DBMS, PLSQL,CSS,JS, Web Development',
+          '+91 9420425226',
+          'abapte@gmail.com'
+
+        )">
+        View Profile
+      </button>
+    </div>
+
+    <div id="faculty-box">
+      <img src="../../assets/fwd/nagavde_comp.jpg">
+      <h4>Nagawade Manali Shankar</h4>
+      <p>Assistant Professor</p>
+      <span>MCA | 0.7 Years</span>
+
+      <button id="view-btn"
+        (click)="openProfile(
+          '../../assets/fwd/nagavde_comp.jpg',
+          'Nagawade Manali Shankar',
+          'Assistant Professor',
+          'MCA',
+          '0.7 Years',
+          'C programming',
+          '+91 7020865708',
+          'manalinagawade@gmail.com'
+        )">
+        View Profile
+      </button>
+    </div>
+
+    <div id="faculty-box">
+      <img src="../../assets/fwd/kumbhar_comp.jpg">
+      <h4>Kumbhar Rutuja Pradip</h4>
+      <p>Assistant Professor</p>
+      <span>MCA | 0.3 Years</span>
+
+      <button id="view-btn"
+        (click)="openProfile(
+          '../../assets/fwd/kumbhar_comp.jpg',
+          'Kumbhar Rutuja Pradip',
+          'Assistant Professor',
+          'MCA',
+          '0.3 Years',
+          'Java',
+          '+91 9370794159',
+          '001rutuja@gmqil.com'
+        )">
+        View Profile
+      </button>
+    </div>
+
+    <div id="faculty-box">
+      <img src="../../assets/fwd/ketki_comp.jpg">
+      <h4>Ketki Ashok Salunkhe</h4>
+      <p>Assistant Professor</p>
+      <span>M.Sc. (Statistics) | 0.4 Years</span>
+
+      <button id="view-btn"
+        (click)="openProfile(
+          '../../assets/fwd/ketki_comp.jpg',
+          'Ketki Ashok Salunkhe',
+          'Assistant Professor',
+          'M.Sc. (Statistics)',
+          '0.4 Years',
+          'Statistics, Mathematics',
+          '+91 9763917674',
+          'ketkisalunkhe2001@gmail.com'
+        )">
+        View Profile
+      </button>
+    </div>
+
+    <div id="faculty-box">
+      <img src="../../assets/fwd/bappu_labAssis.jpg">
+      <h4>Jagtap Bapu Uttareshwar</h4>
+      <p>Lab Assistant</p>
+      <span>B.A.CCNA | 16 Years</span>
+
+      <button id="view-btn"
+        (click)="openProfile(
+          '../../assets/fwd/bappu_labAssis.jpg',
+          'Jagtap Bapu Uttareshwar',
+          'Lab Assistant',
+          'B.A.CCNA',
+          '16 Years',
+          'B.A.CCNA',
+          '+91 9763989095',
+          'manishjagtap7@gmail.com'
+        )">
+        View Profile
+      </button>
+    </div>
+
+    <!-- Copy same box for remaining staff -->
+
+  </div>
+</div>
+
+<!-- MODAL -->
+<div id="modal-bg" *ngIf="showModal">
+  <div id="modal-card">
+    <span id="close-btn" (click)="closeProfile()">×</span>
+
+    <img [src]="profile.img">
+    <h3>{{ profile.name }}</h3>
+    <p><b>Designation:</b> {{ profile.designation }}</p>
+    <p><b>Qualification:</b> {{ profile.qualification }}</p>
+    <p><b>Experience:</b> {{ profile.experience }}</p>
+    <p><b>Expertise:</b> {{ profile.expertise }}</p>
+    <p><b>Mobile:</b> {{ profile.mobile }}</p>
+    <p><b>Email:</b> {{ profile.email }}</p>
+  </div>
+</div>
+<!-- faculty img cards end  -->
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   <!-- table start -->
-   
-<section class="bba-course-structure" style="margin-top: 150px;">
+<section class="bba-course-structure" style="margin-top: 50px;">
   <h2 class="bba-title">SCIENCE FACULTY: UG COURSES – <span>B.B.A. (Computer Applications)</span></h2>
   <h3 class="bba-subtitle">F.Y. B.B.A. (CA) Course Structure (2024 Pattern) (NEP)</h3>
 

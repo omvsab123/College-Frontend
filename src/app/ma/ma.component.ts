@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class MaComponent {
 
+  activeSection: string = 'overview';
+
+  setActiveSection(section: string) {
+    this.activeSection = section;
+  }
+
 }

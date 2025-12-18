@@ -1,3 +1,7 @@
+
+ 
+ 
+ 
  <!-- Hero Section -->
   <section class="hero" style="margin-top: 140px; height: 600px;">
     <div class="hero-content">
@@ -17,7 +21,7 @@
           <h4>📅 Upcoming Events</h4>
           <div class="events-list marquee-viewport" aria-label="Upcoming events">
             <div class="marquee-track">
-              <div class="marquee-item" *ngFor="let e of eventsData">
+              <div class="marquee-item" *ngFor="let e of eventsData.concat(eventsData)">
                 <a href="#" (click)="$event.preventDefault(); openImage(e.image)">
                   <span class="event-thumb" *ngIf="e.image"><img [src]="e.image" alt="{{e.title || e.headline}}"/></span>
                   <span class="event-title">{{ e.headline || e.title }}</span>
@@ -33,9 +37,9 @@
         <div class="college-details-box">
           <h4>College Overview</h4>
           <p><strong>Name:</strong> Padmashri Manibhai Desai College, Uruli Kanchan</p>
-          <p><strong>Vision:</strong> To follow Gandhiji's principle of holistic development based on truth and humanity.</p>
-          <p><strong>Mission:</strong> To provide quality and skill-based education to make the rural community self-reliant and capable.</p>
-          <p><strong>Motto:</strong> "From darkness to light."</p>
+          <br><p><strong>Vision:</strong> To follow Gandhiji's principle of holistic development based on truth and humanity.</p>
+          <br><p><strong>Mission:</strong> To provide quality and skill-based education to make the rural community self-reliant and capable.</p>
+          <br><p><strong>Motto:</strong> "From darkness to light."</p>
           <hr>
           <p style="font-size: 0.9rem; color: #666;">For more information, visit the about section.</p>
         </div>
@@ -49,7 +53,7 @@
     <div class="feature-grid">
       <a routerLink="/vip1" class="depa2" >
         <div class="feature-card">
-          <img style="height: -20px;" src="https://www.tribuneindia.com/sortd-service/imaginary/v22-01/jpg/large/high?url=dGhldHJpYnVuZS1zb3J0ZC1wcm8tcHJvZC1zb3J0ZC9tZWRpYTY4YjdmNWUwLTRlODgtMTFlZi1hOWM2LTU3MzgwY2VmMTg5Yy5qcGc=" alt="Sharadchandra Pawar">
+          <img style="height: 200px; width: auto;" src="../../assets/vip/pawar2.jpg" alt="Sharadchandra Pawar">
           <h3>Sharadchandra Pawar</h3>
           <p class="position">President</p>
           <p class="group">Mahatma Gandhi Sarvodaya Sangh, Uruli Kanchan</p>
@@ -58,7 +62,7 @@
 
       <a routerLink="/vip2" class="depa3" >
         <div class="feature-card">
-          <img style="height: 200px;" src="../../assets/vip/kdk2.jpg" alt="Prof. K. D. Kanchan">
+          <img style="height: 200px; width: 170px;" src="../../assets/vip/v3kdk.jpg" alt="Prof. K. D. Kanchan">
           <h3>Prof. K. D. Kanchan</h3>
           <p class="position">Vice President</p>
           <p class="group">Mahatma Gandhi Sarvodaya Sangh, Uruli Kanchan</p>
@@ -85,7 +89,7 @@
 
       <a routerLink="/vip5" class="depa4">
         <div class="feature-card">
-          <img style="height: 200px;" src="https://www.shutterstock.com/image-vector/default-avatar-profile-icon-social-600nw-2409187029.jpg" alt="Principal">
+          <img style="height: 200px; width: auto;" src="../../assets/vip/principalsir2.JPG" alt="Principal">
           <h3>Prof. (Dr.) Shivaji Borhade</h3>
           <p class="position">Principal</p>
           <p class="group">Padmashri Manibhai Desai College, Uruli Kanchan</p>

@@ -30,66 +30,82 @@
 
   <main class="container">
 
-    <!-- Overview -->
-    <article class="card">
-      <h2>Departmental Overview</h2>
-      <p *ngFor="let para of overview">{{ para }}</p>
-    </article>
+    <div class="dept-layout">
+      <aside class="sidebar">
+        <ul>
+          <li (click)="setActiveSection('overview')" [class.active]="activeSection === 'overview'">Overview</li>
+          <li (click)="setActiveSection('highlights')" [class.active]="activeSection === 'highlights'">Highlights</li>
+          <li (click)="setActiveSection('infrastructure')" [class.active]="activeSection === 'infrastructure'">Infrastructure</li>
+          <li (click)="setActiveSection('objectives')" [class.active]="activeSection === 'objectives'">Objectives</li>
+          <li (click)="setActiveSection('vision-mission')" [class.active]="activeSection === 'vision-mission'">Vision & Mission</li>
+        </ul>
+      </aside>
 
-    <!-- Highlights -->
-    <section class="card">
-      <h2>Highlights</h2>
-      <ul>
-        <li *ngFor="let h of highlights">{{ h }}</li>
-      </ul>
-    </section>
+      <div class="content">
 
-    <!-- Infrastructure -->
-    <section class="card">
-      <h2>Infrastructure</h2>
-      <p *ngFor="let line of infraIntro">{{ line }}</p>
+        <!-- Overview -->
+        <article class="card" *ngIf="activeSection === 'overview'">
+          <h2>Departmental Overview</h2>
+          <p *ngFor="let para of overview">{{ para }}</p>
+        </article>
 
-      <h3>Facilities & Labs</h3>
-      <ul>
-        <li *ngFor="let f of facilities">{{ f }}</li>
-      </ul>
+        <!-- Highlights -->
+        <section class="card" *ngIf="activeSection === 'highlights'">
+          <h2>Highlights</h2>
+          <ul>
+            <li *ngFor="let h of highlights">{{ h }}</li>
+          </ul>
+        </section>
 
-      <h3>Key Instruments</h3>
-      <div class="instruments-grid">
-        <div class="instrument" *ngFor="let inst of instruments">
-          <div class="inst-icon">🧪</div>
-          <div class="inst-name">{{ inst }}</div>
+        <!-- Infrastructure -->
+        <section class="card" *ngIf="activeSection === 'infrastructure'">
+          <h2>Infrastructure</h2>
+          <p *ngFor="let line of infraIntro">{{ line }}</p>
+
+          <h3>Facilities & Labs</h3>
+          <ul>
+            <li *ngFor="let f of facilities">{{ f }}</li>
+          </ul>
+
+          <h3>Key Instruments</h3>
+          <div class="instruments-grid">
+            <div class="instrument" *ngFor="let inst of instruments">
+              <div class="inst-icon">🧪</div>
+              <div class="inst-name">{{ inst }}</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Objective -->
+        <section class="card" *ngIf="activeSection === 'objectives'">
+          <h2>Objective</h2>
+          <ul>
+            <li *ngFor="let ob of objectives">{{ ob }}</li>
+          </ul>
+        </section>
+
+        <!-- Vision & Mission -->
+        <div class="two-cards" *ngIf="activeSection === 'vision-mission'">
+          <div class="card">
+            <h2>Vision</h2>
+            <p>{{ vision }}</p>
+          </div>
+          
+          <div class="card">
+            <h2>Mission</h2>
+            <ol>
+              <li *ngFor="let m of mission">{{ m }}</li>
+            </ol>
+          </div>
         </div>
-      </div>
-    </section>
 
-    <!-- Objective -->
-    <section class="card">
-      <h2>Objective</h2>
-      <ul>
-        <li *ngFor="let ob of objectives">{{ ob }}</li>
-      </ul>
-    </section>
+        <!-- Footer note -->
+        <footer class="card small-note">
+          <p>For more details (syllabus, events, internships) contact the department office or visit the college website.</p>
+        </footer>
 
-    <!-- Vision & Mission -->
-    <div class="two-cards">
-      <div class="card">
-        <h2>Vision</h2>
-        <p>{{ vision }}</p>
-      </div>
-
-      <div class="card">
-        <h2>Mission</h2>
-        <ol>
-          <li *ngFor="let m of mission">{{ m }}</li>
-        </ol>
       </div>
     </div>
-
-    <!-- Footer note -->
-    <footer class="card small-note">
-      <p>For more details (syllabus, events, internships) contact the department office or visit the college website.</p>
-    </footer>
 
   </main>
 </section>

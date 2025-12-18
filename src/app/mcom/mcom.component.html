@@ -1,12 +1,18 @@
 
 
-
-
-
-
+<div class="dept-layout">
+  <div class="sidebar">
+    <ul>
+      <li (click)="setActiveSection('overview')" [class.active]="activeSection === 'overview'">Overview</li>
+      <li (click)="setActiveSection('faculty')" [class.active]="activeSection === 'faculty'">Faculty</li>
+      <li (click)="setActiveSection('facilities')" [class.active]="activeSection === 'facilities'">Facilities</li>
+      <li (click)="setActiveSection('courses')" [class.active]="activeSection === 'courses'">Courses</li>
+    </ul>
+  </div>
+  <div class="content">
 
 <!--staff -->
-<div class="body" style="margin-top: 150px;">
+<div class="body" style="margin-top: 150px;" *ngIf="activeSection === 'faculty'">
    <h1> Staff Details</h1>
 
   <div class="staff-container">
@@ -59,7 +65,7 @@
 
 
 <!-- department description -->
-     <div class="about-box">
+     <div class="about-box" *ngIf="activeSection === 'overview'">
     <h2>Department Description :</h2>
     <p>
     Department of Commerce was established in the year 2002. It is a significant
@@ -79,7 +85,7 @@ students.
     </p>
   </div>
 
-   <table class="college-programs">
+   <table class="college-programs" *ngIf="activeSection === 'overview'">
     <tr>
         <th>Programme</th>
         <th>Year of Establishment</th>
@@ -95,7 +101,7 @@ students.
   </table>
 
 
-  <div class="about-box facilities">
+  <div class="about-box facilities" *ngIf="activeSection === 'facilities'">
     <h2>Facilities :</h2>
     <p>
    <li>Excellent Classroom</li>
@@ -109,8 +115,8 @@ students.
 
 
   <!-- Courses Run by the Department -->
-   <h2 style="color: rgb(28, 57, 116); text-align: center;">Courses Run by the Department</h2>
-   <table class="college-programs">
+   <h2 style="color: rgb(28, 57, 116); text-align: center;" *ngIf="activeSection === 'courses'">Courses Run by the Department</h2>
+   <table class="college-programs" *ngIf="activeSection === 'courses'">
     <tr>
       <th>Level </th>
       <th>Programme /Course</th>
@@ -160,3 +166,5 @@ students.
     </tr>
    </table>
   <app-footer></app-footer>
+  </div>
+</div>
